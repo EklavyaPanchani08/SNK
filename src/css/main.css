@@ -46,7 +46,7 @@ a {
     background-size: cover;
     align-items: center;
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
 }
 
 .map-subscribe .ipnut-subscribe {

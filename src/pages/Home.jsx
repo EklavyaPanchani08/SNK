@@ -1,3 +1,4 @@
+
 import React from "react";
 import Slider from "react-slick";
 import Banner from "../components/Banner";
@@ -19,15 +20,11 @@ import com6 from "../assets/img/company-6.png";
 import whatsapp from "../assets/icon/whatsapp.png";
 import {
   Button,
-  Card,
-  CardBody,
   Col,
-  Form,
   Input,
   Row,
   UncontrolledCollapse,
 } from "reactstrap";
-import RangeSlider from "react-bootstrap-range-slider";
 import { product } from "../data/HomeProduct";
 
 const Home = () => {
@@ -56,6 +53,7 @@ const Home = () => {
                 Sign up for industry alerts, insights from SNK INTERNATIONAL
                 Export Import
               </h6>
+              {/* eslint-disable-next-line */}
               <a href="#" style={{ fontSize: "12px" }}>
                 Get Started <img className="ms-1" src={arrow} alt="" />
               </a>
@@ -248,7 +246,7 @@ const Home = () => {
                   banks. Credit unions, casinos and travel companies. Throughout
                   the globe.
                 </p>
-              </UncontrolledCollapse>
+              </UncontrolledCollapse>:
             </div>
 
             <div className="my-2 toggle-main">
@@ -425,6 +423,7 @@ const Home = () => {
         </div>
       </div>
 
+      {/* eslint-disable-next-line */}
       <a href="https://wa.me/8153813384" target="_blank">
         <Button className="btn btn-black whatsapp-button">
           Chat with us{" "}

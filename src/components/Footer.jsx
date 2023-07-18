@@ -7,7 +7,6 @@ import twitter from "../assets/icon/twitter.png";
 import linkdin from "../assets/icon/footer-linkdin.png";
 import youtube from "../assets/icon/footer-youtube.png";
 import "../css/footer.css";
-import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (

@@ -13,7 +13,6 @@ import img12 from "../assets/img/img12.png";
 import img13 from "../assets/img/img13.png";
 import img14 from "../assets/img/img14.png";
 import img15 from "../assets/img/img15.png";
-import img16 from "../assets/img/img16.png";
 
 export const product = [
     {
