@@ -139,7 +139,7 @@ const Home = () => {
                 have all come to expect excellent shipping & handling of their
                 merchandise.”
               </p>
-              <div className="review-inner d-flex justify-content-start align-content-center pt-3">
+              <div className="review-inner d-flex justify-content-flex-start align-content-center pt-3">
                 <img src={customer1} alt="client" />
                 <div className="ms-3">
                   <h5 className="mb-0">Pavan Prajapati</h5>
@@ -156,7 +156,7 @@ const Home = () => {
                 have grown comfortable leaning on ZYL Logistics team with some
                 of my end of the day.”
               </p>
-              <div className="review-inner d-flex justify-content-start align-content-center pt-3">
+              <div className="review-inner d-flex justify-content-flex-start align-content-center pt-3">
                 <img src={customer2} alt="client" />
                 <div className="ms-3">
                   <h5 className="mb-0">Olivia Dench</h5>
@@ -173,7 +173,7 @@ const Home = () => {
                 have all come to expect excellent shipping & handling of their
                 merchandise.”
               </p>
-              <div className="review-inner d-flex justify-content-start align-content-center pt-3">
+              <div className="review-inner d-flex justify-content-flex-start align-content-center pt-3">
                 <img src={customer1} alt="client" />
                 <div className="ms-3">
                   <h5 className="mb-0">Pavan Prajapati</h5>
@@ -190,7 +190,7 @@ const Home = () => {
                 have grown comfortable leaning on ZYL Logistics team with some
                 of my end of the day.”
               </p>
-              <div className="review-inner d-flex justify-content-start align-content-center pt-3">
+              <div className="review-inner d-flex justify-content-flex-start align-content-center pt-3">
                 <img src={customer2} alt="client" />
                 <div className="ms-3">
                   <h5 className="mb-0">Olivia Dench</h5>
