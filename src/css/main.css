@@ -1,0 +1,355 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Rubik', sans-serif !important;
+}
+
+a {
+    text-decoration: none !important;
+    color: #fff !important;
+}
+
+.app-container {
+    max-width: 1200px !important;
+    margin: 0 auto;
+}
+
+.color-white {
+    color: white !important;
+}
+
+.btn-white {
+    background-color: white !important;
+    color: black !important;
+    border: none !important;
+}
+
+.btn-black {
+    border-radius: 51px !important;
+    border: 2px solid #000 !important;
+    background: #000 !important;
+    box-shadow: 2px 3px 6px 0px rgba(0, 0, 0, 0.25), 0px 3px 10px 0px rgba(255, 255, 255, 0.25) inset !important;
+}
+
+.cursor-pointer {
+    cursor: pointer !important;
+}
+
+.map-subscribe {
+    background-image: url('../assets/img/map-back.png');
+    background-position: center center;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    justify-content: start;
+}
+
+.map-subscribe .ipnut-subscribe {
+    width: 300px !important;
+}
+
+.map-subscribe .ipnut-subscribe:placeholder {
+    font-size: 12px;
+}
+
+.map-subscribe .btn-started {
+    width: 110px !important;
+}
+
+.services-first {
+    position: relative;
+}
+
+.services-first h1 {
+    font-size: 130px;
+    font-weight: 700;
+    color: #FFF;
+    text-shadow: 2px 4px 7px rgba(12, 36, 66, 0.263);
+}
+
+.services-first h2 {
+    position: absolute;
+    top: 40%;
+    left: 0px;
+    letter-spacing: 1px;
+}
+
+.services-second h5 {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.about-us-logo {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us-logo img {
+    width: 200px;
+}
+
+.about-us-content {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.about-us-content p {
+    font-weight: 300;
+    padding: 10px 0px;
+}
+
+.about-us-content .btn-started {
+    width: 150px !important;
+}
+
+.review {
+    border: 1px solid rgba(12, 36, 66, 0.09);
+    border-top: 3px solid #2A74ED;
+    ;
+    padding: 60px 50px;
+}
+
+.review p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.84px;
+    color: rgba(0, 35, 90, 0.80);
+}
+
+.review h5 {
+    color: #00235A;
+}
+
+.review span {
+    color: rgba(12, 36, 66, 0.80);
+    font-size: 13px;
+
+}
+
+.review-inner {
+    align-items: center;
+}
+
+.slick-prev,
+.slick-next {
+    border-radius: 124px !important;
+    background: #FFF !important;
+    box-shadow: 0px 9px 13px 0px rgba(12, 36, 66, 0.14) !important;
+}
+
+.slick-prev {
+    left: 613px !important;
+    top: 105% !important;
+}
+
+.slick-next {
+    right: 629px !important;
+    top: 105% !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: #0C2442 !important;
+    font-size: 30px !important;
+    padding: 5px;
+}
+
+
+.product-main {
+    padding: 100px 0px;
+}
+
+.product-main .product-title {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-main .product-title h1 {
+    color: #FFF;
+    text-shadow: 2px 4px 7px rgba(12, 36, 66, 0.263);
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 98px;
+    letter-spacing: -0.5px;
+}
+
+.product-main .product-title div {
+    top: 30%;
+    position: absolute;
+}
+
+.product-main .product-title h2 {
+    text-align: center;
+    text-shadow: 2px 4px 7px rgba(12, 36, 66, 0.263);
+    font-family: Playfair Display;
+    font-size: 45px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -0.2px;
+}
+
+.product-main .product-title p {
+    color: #666;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    width: 550px;
+    text-align: center;
+}
+
+.product {
+    padding: 30px 40px;
+    /* box-shadow: 4px 3px 3px 0px rgba(0, 0, 0, 0.25), 1px 2px 14px 2px rgba(0, 0, 0, 0.20) inset; */
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    text-align: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.product:hover {
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    transition: all 0.5s;
+}
+
+.product h5 {
+    color: #141F72;
+    font-family: Playfair Display;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.2px;
+}
+
+.product p {
+    color: #666;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.product Button {
+    font-size: 14px !important;
+    font-weight: 400;
+    border-radius: 65px;
+    opacity: 0.800000011920929;
+    background: #000;
+    box-shadow: 2px 1px 3px 0px rgba(0, 0, 0, 0.44), 2px 2px 3px 0px rgba(255, 255, 255, 0.25) inset;
+    border: 0px;
+    padding: 13px 30px;
+}
+
+.trspot-1 {
+    background-color: #0C2442;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.toggle-main {
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 10px 50px 0px rgba(119, 85, 75, 0.10);
+    padding: 12px 20px;
+    width: 500px;
+}
+
+.trspot-1 .toggle-div span {
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.trspot-1 .collapse,
+.collapsing {
+    border-top: 1px solid #00235a71;
+    color: #00235A !important;
+    margin-top: 10px;
+    padding-top: 15px;
+}
+
+.toggle-main p {
+    color: rgba(0, 35, 90, 0.80);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.84px;
+}
+
+.trspot-2 {
+    background-color: #0C2442;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill-progress-bg {
+    background: hsl(0, 0%, 22%);
+    width: 100%;
+    height: 8px;
+    border-radius: 10px;
+}
+
+.skill-progress-fill {
+    background: hsl(35, 100%, 68%);
+    height: 100%;
+    border-radius: inherit;
+}
+
+.range-title {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20.8px;
+    /* 130% */
+    letter-spacing: 0.5px;
+}
+
+.home-blog {
+    position: relative;
+}
+
+.home-blog h1 {
+    color: #FAFAFA;
+    text-shadow: 2px 4px 7px rgba(12, 36, 66, 0.263);
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 169px;
+    /* 100% */
+    letter-spacing: -0.3px;
+}
+
+.home-blog h3 {
+    color: #00235A;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 54px;
+    position: absolute;
+    top: 70px;
+}
+
+.whatsapp-button {
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+}

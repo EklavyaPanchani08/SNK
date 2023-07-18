@@ -1,0 +1,33 @@
+.footer-main{
+    background: #100B2B;
+    color: #fff;
+}
+.footer-row{
+    padding: 100px 0px;
+}
+.footer-main .first{
+    display: block;
+    font-size:16px
+}
+.footer-main .second p{
+    margin-bottom: 10px;
+}
+.footer-main .first .logo-div {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.btn-started{
+    width: 100% !important;
+    border-radius: 40px!important;
+    background-color:black !important;
+    border: none !important;
+    padding: 12px 0px !important;
+}
+.ipnut-subscribe{
+    border-radius: 40px!important;
+    padding: 10px 0px 10px 15px !important;
+}
