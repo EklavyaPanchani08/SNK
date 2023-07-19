@@ -1,7 +1,5 @@
-
 import React from "react";
 import Slider from "react-slick";
-import Banner from "../components/Banner";
 import mapIcon from "../assets/img/map.png";
 import arrow from "../assets/icon/arrow.png";
 import ship from "../assets/icon/ship.png";
@@ -11,29 +9,19 @@ import customer1 from "../assets/img/customer-1.png";
 import customer2 from "../assets/img/customer-2.png";
 import trasport from "../assets/img/trasport.png";
 import trasport2 from "../assets/img/trasport2.png";
-import com1 from "../assets/img/company-1.png";
-import com2 from "../assets/img/company-2.png";
-import com3 from "../assets/img/company-3.png";
-import com4 from "../assets/img/company-4.png";
-import com5 from "../assets/img/company-5.png";
-import com6 from "../assets/img/company-6.png";
-import whatsapp from "../assets/icon/whatsapp.png";
-import {
-  Button,
-  Col,
-  Input,
-  Row,
-  UncontrolledCollapse,
-} from "reactstrap";
+import { Button, Col, Input, Row, UncontrolledCollapse } from "reactstrap";
 import { product } from "../data/HomeProduct";
+import BannerForHome from "../components/BannerForHome";
+import WhatsappButton from "../components/WhatsappButton";
+import BlogCompanies from "../components/BlogCompanies";
 
 const Home = () => {
   return (
     <>
-      <Banner
+      <BannerForHome
         title="We Provide Premium Quality Product"
         subTitter="We pride ourselves on providing the best transport and shipping services available allover the world.
-        Our skilled personal, tracking and combined with experience through integrated supply chain solutions!"
+          Our skilled personal, tracking and combined with experience through integrated supply chain solutions!"
         button="Get a Quote"
       />
 
@@ -246,7 +234,8 @@ const Home = () => {
                   banks. Credit unions, casinos and travel companies. Throughout
                   the globe.
                 </p>
-              </UncontrolledCollapse>:
+              </UncontrolledCollapse>
+              :
             </div>
 
             <div className="my-2 toggle-main">
@@ -345,97 +334,11 @@ const Home = () => {
             <h1>OUR BLOG</h1>
             <h3>LATEST FROM OUR BLOG</h3>
           </div>
-
-          <Row className="align-item-center">
-            <Col
-              className="d-flex justify-content-center align-item-center"
-              md={2}
-            >
-              <img
-                src={com1}
-                alt="company"
-                width="80px"
-                style={{ objectFit: "contain" }}
-                height="80px"
-              />
-            </Col>
-            <Col
-              className="d-flex justify-content-center align-item-center"
-              md={2}
-            >
-              <img
-                src={com2}
-                alt="company"
-                width="80px"
-                style={{ objectFit: "contain" }}
-                height="80px"
-              />
-            </Col>
-            <Col
-              className="d-flex justify-content-center align-item-center"
-              md={2}
-            >
-              <img
-                src={com3}
-                alt="company"
-                width="80px"
-                style={{ objectFit: "contain" }}
-                height="80px"
-              />
-            </Col>
-            <Col
-              className="d-flex justify-content-center align-item-center"
-              md={2}
-            >
-              <img
-                src={com4}
-                alt="company"
-                width="80px"
-                style={{ objectFit: "contain" }}
-                height="80px"
-              />
-            </Col>
-            <Col
-              className="d-flex justify-content-center align-item-center"
-              md={2}
-            >
-              <img
-                src={com5}
-                alt="company"
-                width="80px"
-                style={{ objectFit: "contain" }}
-                height="80px"
-              />
-            </Col>
-            <Col
-              className="d-flex justify-content-center align-item-center"
-              md={2}
-            >
-              <img
-                src={com6}
-                alt="company"
-                width="80px"
-                style={{ objectFit: "contain" }}
-                height="80px"
-              />
-            </Col>
-          </Row>
+          <BlogCompanies />
         </div>
       </div>
 
-      {/* eslint-disable-next-line */}
-      <a href="https://wa.me/8153813384" target="_blank">
-        <Button className="btn btn-black whatsapp-button">
-          Chat with us{" "}
-          <img
-            src={whatsapp}
-            className="ms-1"
-            alt="whatsapp"
-            width="30px"
-            height="30px"
-          />
-        </Button>
-      </a>
+      <WhatsappButton />
     </>
   );
 };

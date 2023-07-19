@@ -1,24 +1,24 @@
-.banner-main {
-    background-image: url("../assets/img/banner.jpg");
+.banner-for-home-main {
+    background-image: url("../assets/img/home-banner.jpg");
     height: 700px !important;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.banner {
+
+.banner-for-home {
     width: 760px !important;
     color: #fff !important;
     text-align: center;
-    /* transform: translateY(100%); */
-    margin: 250px auto;
+    transform: translateY(65%);
 }
 
-.banner h1 {
+.banner-for-home h1 {
     font-size: 55px;
     font-weight: 600;
 }
 
-.banner .btn {
+.banner-for-home .btn {
     color: #fff;
     border: none;
     border-radius: 45px;
