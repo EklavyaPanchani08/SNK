@@ -1,0 +1,33 @@
+.about-us-title{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.about-us-title h1 {
+    font-size: 130px;
+    font-weight: 700;
+    color: #FFF;
+    text-shadow: 2px 4px 7px rgba(12, 36, 66, 0.263);
+}
+
+.about-us-title h2 {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 35px;
+}
+.about-us-button{
+    background-color: black !important;
+    color: white !important;
+    border: 1px solid white !important;
+    border-radius:20px !important;
+    font-size:12px !important;
+    padding: 8px 15px !important;
+    width: 170px !important;
+    margin: 0px auto !important;
+}
+.about-quality{
+    color: #fff !important;
+}
