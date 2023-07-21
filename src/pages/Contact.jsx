@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Button, Col, Form, FormGroup, Input, Label, Row } from "reactstrap";
 import logoBlack from "../assets/icon/logo-black.png";
 import phone from "../assets/icon/phone.png";
@@ -8,7 +8,40 @@ import Banner from "../components/Banner";
 import "../css/contact.css";
 import BlogCompanies from "../components/BlogCompanies";
 import WhatsappButton from "../components/WhatsappButton";
+import emailjs from "@emailjs/browser";
+import { toast } from "react-toastify";
+
 const Contact = () => {
+  const [userData, setUserData] = useState({
+    firstName: "",
+    lastName: "",
+    email: "",
+    message: "",
+  });
+
+  const handleMailSend = async(e) => {
+    e.preventDefault();
+    await emailjs.send(
+      "eklavya_mailer",
+      "template_i24wz61",
+      {
+        firstName: userData.firstName,
+        lastName: userData.lastName,
+        email: userData.email,
+        message: userData.message,
+      },
+      "iB7uMsyQnpT2XRSvF"
+    );
+    await toast.success("Your message has been sent successfully");
+  };
+
+  const handleInputChange = (e) => {
+    setUserData({
+      ...userData,
+      [e.target.name]: e.target.value,
+    });
+  };
+
   return (
     <>
       <Banner title="Contact Us" />
@@ -22,17 +55,19 @@ const Contact = () => {
               Get in touch with us using the enquiry form or contact details
               below.
             </p>
-            <Form>
+            <Form onSubmit={handleMailSend}>
               <Row>
                 <Col md={6}>
                   <FormGroup>
                     <Label for="firstName">First Name</Label>
                     <Input
+                      required
                       className="contact-input"
                       id="firstName"
                       name="firstName"
                       placeholder="Enter your first Name"
                       type="text"
+                      onChange={handleInputChange}
                     />
                   </FormGroup>
                 </Col>
@@ -40,11 +75,13 @@ const Contact = () => {
                   <FormGroup>
                     <Label for="lastName">Last Name</Label>
                     <Input
+                      required
                       className="contact-input"
                       id="lastName"
                       name="lastName"
                       placeholder="Enter your Last Name"
                       type="text"
+                      onChange={handleInputChange}
                     />
                   </FormGroup>
                 </Col>
@@ -53,11 +90,13 @@ const Contact = () => {
               <FormGroup>
                 <Label for="email">Email</Label>
                 <Input
+                  required
                   className="contact-input"
                   id="email"
                   name="email"
                   placeholder="Enter your email"
                   type="email"
+                  onChange={handleInputChange}
                 />
               </FormGroup>
               <FormGroup>
@@ -68,9 +107,15 @@ const Contact = () => {
                   name="message"
                   placeholder="Enter your comment or message"
                   type="textarea"
+                  onChange={handleInputChange}
                 />
               </FormGroup>
-              <Button className="btn btn-black px-4 py-2">Submit</Button>
+              <Button
+                // onClick={handleMailSend}
+                className="btn btn-black px-4 py-2"
+              >
+                Submit
+              </Button>
             </Form>
           </Col>
 
