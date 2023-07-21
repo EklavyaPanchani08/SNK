@@ -8,6 +8,7 @@ import about3 from "../assets/icon/about-3.png";
 import about4 from "../assets/icon/about-4.png";
 import "../css/about.css";
 import BlogCompanies from "../components/BlogCompanies";
+import WhatsappButton from "../components/WhatsappButton";
 
 const About = () => {
   return (
@@ -141,6 +142,8 @@ const About = () => {
       <div class="container my-5">
         <BlogCompanies />
       </div>
+
+      <WhatsappButton/>
     </>
   );
 };

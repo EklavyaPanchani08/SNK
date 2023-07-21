@@ -6,7 +6,7 @@ const WhatsappButton = () => {
   return (
     <>
       {/* eslint-disable-next-line */}
-      <a href="https://wa.me/8153813384" target="_blank">
+      <a href="https://wa.me/919327913949" target="_blank">
         <Button className="btn btn-black whatsapp-button">
           Chat with us{" "}
           <img

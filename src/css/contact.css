@@ -1,0 +1,15 @@
+.form-time-p {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.form-time-h3 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.contact-input{
+    border-radius: 0px !important;
+    border: 1px solid #CCC !important;
+    padding: 10px !important;
+}

@@ -26,7 +26,7 @@ const Header = () => {
           <Col lg={3}>
             <div className="align-items-center d-flex">
               <div>
-                <img src={logo} alt="logo" />
+                <a href="/"><img src={logo} alt="logo" /></a>
               </div>
               <div className="header-time">
                 <img src={clock} alt="clock" />
@@ -62,7 +62,7 @@ const Header = () => {
                 <NavLink href="/blog">Blog</NavLink>
               </NavItem>
               <NavItem className="ms-4 me-3">
-                <a href="tel:+918153813384"><Button className="btn btn-white btn-call">Call Us Now</Button> </a>
+                <a href="tel:+919327913949"><Button className="btn btn-white btn-call">Call Us Now</Button> </a>
               </NavItem>
               <NavItem className="d-flex">
                 <NavLink className="px-2" href="#">

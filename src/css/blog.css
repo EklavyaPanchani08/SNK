@@ -1,0 +1,20 @@
+.blog-main {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.blog-main:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    transition: all 1s;
+    background-color:rgba(175, 175, 175, 0.074);
+}
+
+.blog-des {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.blog-img {
+    height: 350px;
+    width: 100%;
+    object-fit: contain;
+}
