@@ -18,7 +18,7 @@ const About = () => {
       <div className="container my-5">
         <div className="about-us-title">
           <h1>Who We Are?</h1>
-          <h2>About Kirti Export Import</h2>
+          <h2>About SNK International</h2>
         </div>
         <Row className="align-content-center py-2">
           <Col>
@@ -29,7 +29,7 @@ const About = () => {
           <Col className="about-us-content">
             <h3>About Us</h3>
             <p>
-              Kirti Export Import started in the year 2022 at Surat, Gujarat
+              SNK Internationalstarted in the year 2022 at Surat, Gujarat
               India We Export fresh Vegetables, Fruits , Spices , grains etc.
               Under the leadership of Mr. Pradeep Gupta , the company has
               emerged as one among the leading exporters from India . Total
@@ -63,8 +63,7 @@ const About = () => {
                   <h5 style={{ fontWeight: "500" }}>Export</h5>
                   <p>
                     We are Exporting best quality product around the world, You
-                    need best product on time you are at right place Kirti
-                    Export Import
+                    need best product on time you are at right place SNK International
                   </p>
                 </div>
               </div>
@@ -130,7 +129,7 @@ const About = () => {
                 <div>
                   <h5 style={{ fontWeight: "500" }}>Quality Product</h5>
                   <p>
-                    Kirti Export Import Provide Quality Product Across World.
+                    SNK InternationalProvide Quality Product Across World.
                   </p>
                 </div>
               </div>

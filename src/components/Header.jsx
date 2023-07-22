@@ -26,7 +26,7 @@ const Header = () => {
           <Col lg={3}>
             <div className="align-items-center d-flex">
               <div>
-                <a href="/"><img src={logo} alt="logo" /></a>
+                <a href="/"><img width="10px" height="10px" src={logo} alt="logo" /></a>
               </div>
               <div className="header-time">
                 <img src={clock} alt="clock" />
@@ -41,7 +41,7 @@ const Header = () => {
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
-                  Out Product
+                  Our Product
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem>Option 1</DropdownItem>
@@ -62,7 +62,7 @@ const Header = () => {
                 <NavLink href="/blog">Blog</NavLink>
               </NavItem>
               <NavItem className="ms-4 me-3">
-                <a href="tel:+919327913949"><Button className="btn btn-white btn-call">Call Us Now</Button> </a>
+                <a href="tel:+9327558693"><Button className="btn btn-white btn-call">Call Us Now</Button> </a>
               </NavItem>
               <NavItem className="d-flex">
                 <NavLink className="px-2" href="#">

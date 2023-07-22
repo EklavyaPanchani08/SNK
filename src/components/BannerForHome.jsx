@@ -9,9 +9,11 @@ const BannerForHome = ({ title, subTitter, button }) => {
       <div className="banner-for-home-main">
         <Header />
         <div className="container banner-for-home">
-        <h1>{title}</h1>
-        <p className="pt-1 pb-3">{subTitter}</p>
-        <Button className="btn btn-black">{button}</Button>
+          <h1>{title}</h1>
+          <p className="pt-1 pb-3">{subTitter}</p>
+          <a href="/about-us">
+            <Button className="btn btn-black">{button}</Button>
+          </a>
         </div>
       </div>
     </>

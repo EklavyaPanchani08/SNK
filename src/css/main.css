@@ -92,8 +92,7 @@ a {
 }
 
 .about-us-logo {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 50px 0px;
     background-color: #fff;
     display: flex;
     justify-content: center;
@@ -101,7 +100,7 @@ a {
 }
 
 .about-us-logo img {
-    width: 200px;
+    width: 350px;
 }
 
 .about-us-content {
@@ -222,7 +221,9 @@ a {
 .product {
     padding: 30px 40px;
     /* box-shadow: 4px 3px 3px 0px rgba(0, 0, 0, 0.25), 1px 2px 14px 2px rgba(0, 0, 0, 0.20) inset; */
-    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    box-shadow: 6px 6px rgba(0, 0, 0, 0.374);
+    border: 1px solid rgba(0, 0, 0, 0.374);
+    border-radius: 6px;
     text-align: center;
     height: 500px;
     display: flex;
@@ -232,7 +233,9 @@ a {
 }
 
 .product:hover {
-    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    /* box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px; */
+    border-color: rgba(0, 0, 0, 0);
+    box-shadow: 23px 23px 64px -16px rgba(57, 59, 106, .06);
     transition: all 0.5s;
 }
 
@@ -359,4 +362,13 @@ a {
     position: fixed;
     right: 40px;
     bottom: 40px;
+}
+
+.welcome-screen {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }

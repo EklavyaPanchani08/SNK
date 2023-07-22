@@ -15,7 +15,7 @@ const Footer = () => {
         <Row className="align-items-start footer-row">
           <Col className="first" md={3}>
             <div className="logo-div mb-5">
-              <img src={logo} alt="logo" />
+              <img width="100%" src={logo} alt="logo" />
             </div>
             <p>TY 89 Business center vesu Road Surat ,Gujarat , India 394221</p>
             <p className="my-2">+91 93275 58693</p>

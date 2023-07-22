@@ -22,7 +22,7 @@ const Home = () => {
         title="We Provide Premium Quality Product"
         subTitter="We pride ourselves on providing the best transport and shipping services available allover the world.
           Our skilled personal, tracking and combined with experience through integrated supply chain solutions!"
-        button="Get a Quote"
+        button="About SNK"
       />
 
       {/* MAP & SUBSCRIBE */}
@@ -68,7 +68,7 @@ const Home = () => {
             <h5 className="my-2">Export</h5>
             <p>
               We are Exporting best quality product around the world, You need
-              best product on time you are at right place @ Kirti Export Import
+              best product on time you are at right place SNK International
             </p>
           </Col>
           <Col>
@@ -98,7 +98,7 @@ const Home = () => {
             <Col className="about-us-content">
               <h3>About Us</h3>
               <p>
-                Kirti Export Import started in the year 2022 at Surat, Gujarat
+                SNK Internationalstarted in the year 2022 at Surat, Gujarat
                 India We Export All Agriculture Products . Under the leadership
                 of Mr. Pradeep Gupta , the company has emerged as one among the
                 leading exporters from India . Total customer satisfaction is
@@ -209,7 +209,7 @@ const Home = () => {
         <Row>
           {product?.map((item) => (
             <Col md={4} sm={6}>
-              <div className="m-2 product">
+              <div className="mx-2 my-4 product">
                 <img src={item?.img} alt={item?.title} />
                 <h5 className="mt-4 mb-3">{item?.title}</h5>
                 <p>{item?.dis}</p>

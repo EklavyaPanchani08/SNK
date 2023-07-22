@@ -19,20 +19,38 @@ const Contact = () => {
     message: "",
   });
 
-  const handleMailSend = async(e) => {
+  const handleMailSend = async (e) => {
     e.preventDefault();
-    await emailjs.send(
-      "eklavya_mailer",
-      "template_i24wz61",
-      {
-        firstName: userData.firstName,
-        lastName: userData.lastName,
-        email: userData.email,
-        message: userData.message,
-      },
-      "iB7uMsyQnpT2XRSvF"
-    );
-    await toast.success("Your message has been sent successfully");
+    await emailjs
+      .send(
+        "eklavya_mailer",
+        "template_i24wz61",
+        {
+          firstName: userData.firstName,
+          lastName: userData.lastName,
+          email: userData.email,
+          message: userData.message,
+        },
+        "iB7uMsyQnpT2XRSvF"
+      )
+      .then((response) => {
+        setUserData({
+          firstName: "",
+          lastName: "",
+          email: "",
+          message: "",
+        });
+        toast.success("Your message has been sended successfully 🙌");
+      })
+      .catch((error) => {
+        toast.error("Can't send your message, Please try again ⚠️");
+        setUserData({
+          firstName: "",
+          lastName: "",
+          email: "",
+          message: "",
+        });
+      });
   };
 
   const handleInputChange = (e) => {
@@ -135,7 +153,7 @@ const Contact = () => {
                   src={phone}
                   alt=""
                 />
-                <p style={{ fontSize: "16px" }}>+919327913949</p>
+                <p style={{ fontSize: "16px" }}>+91 9327558693</p>
               </div>
               <div className="d-flex justify-content-start my-4 align-content-center">
                 <img
@@ -145,7 +163,9 @@ const Contact = () => {
                   src={mail}
                   alt=""
                 />
-                <p style={{ fontSize: "16px" }}>+info@kirtiexportimport.com</p>
+                <p style={{ fontSize: "16px" }}>
+                  thesnkinternational@gmail.com
+                </p>
               </div>
               <div className="d-flex justify-content-start my-4 align-content-center">
                 <img

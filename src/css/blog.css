@@ -1,11 +1,17 @@
 .blog-main {
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
+    box-shadow: 6px 6px rgba(0, 0, 0, 0.374);
+    border: 1px solid rgba(0, 0, 0, 0.374);
+    border-radius: 6px;
 }
 
 .blog-main:hover {
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    /* box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
     transition: all 1s;
-    background-color:rgba(175, 175, 175, 0.074);
+    background-color:rgba(175, 175, 175, 0.074); */
+    border-color: rgba(0, 0, 0, 0);
+    box-shadow: 23px 23px 64px -16px rgba(57, 59, 106, .06);
+    transition: all 0.5s;
 }
 
 .blog-des {
