@@ -26,7 +26,7 @@ const Header = () => {
           <Col lg={3}>
             <div className="align-items-center d-flex">
               <div>
-                <a href="/"><img width="10px" height="10px" src={logo} alt="logo" /></a>
+                <a href="/"><img width="100px" height="100px" src={logo} alt="logo" /></a>
               </div>
               <div className="header-time">
                 <img src={clock} alt="clock" />
