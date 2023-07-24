@@ -2,9 +2,9 @@ import React from "react";
 import Banner from "../components/Banner";
 import BlogCompanies from "../components/BlogCompanies";
 import WhatsappButton from "../components/WhatsappButton";
-import blog1 from "../assets/img/blog1.jpg";
-import blog2 from "../assets/img/blog2.jpg";
-import blog3 from "../assets/img/blog3.jpg";
+import blog1 from "../assets/videos/blog1.mp4";
+import blog2 from "../assets/videos/blog2.mp4";
+import blog3 from "../assets/videos/blog3.mp4";
 import { Col, Row } from "reactstrap";
 import "../css/blog.css";
 
@@ -16,7 +16,9 @@ const Blog = () => {
       <div className="container">
         <Row className="m-5 blog-main align-items-center">
           <Col md={6}>
-            <video className="blog-img" src={blog1} alt="blog2" />
+            <video muted className="blog-img" controls>
+              <source src={blog1} type="video/mp4" />
+            </video>
           </Col>
           <Col md={6}>
             <h3 className="mb-4">Appreciation for Logistic Services</h3>
@@ -29,8 +31,10 @@ const Blog = () => {
           </Col>
         </Row>
         <Row className="m-5 blog-main align-items-center">
-          <Col md={6}>
-            <video className="blog-img" src={blog2} alt="blog2" />
+        <Col md={6}>
+            <video muted className="blog-img" controls>
+              <source src={blog2} type="video/mp4" />
+            </video>
           </Col>
           <Col md={6}>
             <h3 className="mb-4">Managing the Inbound Auto Supply Chain</h3>
@@ -43,8 +47,10 @@ const Blog = () => {
           </Col>
         </Row>
         <Row className="m-5 blog-main align-items-center">
-          <Col md={6}>
-            <video className="blog-img" src={blog3} alt="blog3" />
+        <Col md={6}>
+            <video muted className="blog-img" controls>
+              <source src={blog3} type="video/mp4" />
+            </video>
           </Col>
           <Col md={6}>
             <h3 className="mb-4">Appreciation for Logistic Services</h3>
