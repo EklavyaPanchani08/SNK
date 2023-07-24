@@ -40,7 +40,6 @@ const Footer = () => {
             <NavLink href="/"><p>Home</p></NavLink>
             <NavLink href="/about-us"><p>About</p></NavLink>
             <NavLink href="/contact-us"><p>Contact Us</p></NavLink>
-            <NavLink href="/gallery"><p>Gallery</p></NavLink>
           </Col>
           <Col md={3}>
             <h5 className="mb-4">Subscribe</h5>

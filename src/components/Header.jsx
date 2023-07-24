@@ -44,9 +44,8 @@ const Header = () => {
                   Our Product
                 </DropdownToggle>
                 <DropdownMenu right>
-                  <DropdownItem>Option 1</DropdownItem>
-                  <DropdownItem>Option 2</DropdownItem>
-                  <DropdownItem>Option 3</DropdownItem>
+                  <DropdownItem><NavLink className="product-option-nav-link" href="/product/vegetables">Vegetables</NavLink> <hr style={{margin:"10px 0px 3px 0px"}}/></DropdownItem>
+                  <DropdownItem><NavLink className="product-option-nav-link" href="/product/fruits">Fruits</NavLink></DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
               <NavItem>
@@ -56,7 +55,6 @@ const Header = () => {
                 <NavLink href="/contact-us">Contact Us</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/gallery">Gallery</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="/blog">Blog</NavLink>

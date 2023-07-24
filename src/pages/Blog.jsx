@@ -16,7 +16,7 @@ const Blog = () => {
       <div className="container">
         <Row className="m-5 blog-main align-items-center">
           <Col md={6}>
-            <img className="blog-img" src={blog1} alt="blog2" />
+            <video className="blog-img" src={blog1} alt="blog2" />
           </Col>
           <Col md={6}>
             <h3 className="mb-4">Appreciation for Logistic Services</h3>
@@ -30,7 +30,7 @@ const Blog = () => {
         </Row>
         <Row className="m-5 blog-main align-items-center">
           <Col md={6}>
-            <img className="blog-img" src={blog2} alt="blog2" />
+            <video className="blog-img" src={blog2} alt="blog2" />
           </Col>
           <Col md={6}>
             <h3 className="mb-4">Managing the Inbound Auto Supply Chain</h3>
@@ -44,7 +44,7 @@ const Blog = () => {
         </Row>
         <Row className="m-5 blog-main align-items-center">
           <Col md={6}>
-            <img className="blog-img" src={blog3} alt="blog3" />
+            <video className="blog-img" src={blog3} alt="blog3" />
           </Col>
           <Col md={6}>
             <h3 className="mb-4">Appreciation for Logistic Services</h3>
