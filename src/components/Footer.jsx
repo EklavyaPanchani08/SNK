@@ -21,25 +21,17 @@ const Footer = () => {
             <p className="my-2">+91 93275 58693</p>
             <p>snkinternational8782@gmail.com</p>
           </Col>
-          <Col md={2} className="second">
-            <h5 className="mb-4">Services</h5>
-            <p>Tomatoes</p>
-            <p>Maize</p>
-            <p>Wheat flour</p>
-            <p>Lemon</p>
+          <Col md={3} className="second ps-5`">
+            <h5 className="mb-4">Products</h5>
+            <NavLink href="/product/vegetables"><p>vegetables</p></NavLink>
+            <NavLink href="/product/fruits"><p>Fruits</p></NavLink>
           </Col>
-          <Col md={2} className="third">
-            <h5 className="mb-4">Company</h5>
-            <p>Green chilly</p>
-            <p>Apple</p>
-            <p>Coconut</p>
-            <p>Pomegranate</p>
-          </Col>
-          <Col md={2} className="fourth">
+          <Col md={3} className="fourth">
             <h5 className="mb-4">Resources</h5>
             <NavLink href="/"><p>Home</p></NavLink>
             <NavLink href="/about-us"><p>About</p></NavLink>
             <NavLink href="/contact-us"><p>Contact Us</p></NavLink>
+            <NavLink href="/blog"><p>Blog</p></NavLink>
           </Col>
           <Col md={3}>
             <h5 className="mb-4">Subscribe</h5>
