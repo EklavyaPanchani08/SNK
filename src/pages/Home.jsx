@@ -10,10 +10,10 @@ import customer2 from "../assets/img/customer-2.png";
 import trasport from "../assets/img/trasport.png";
 import trasport2 from "../assets/img/trasport2.png";
 import { Button, Col, Input, Row, UncontrolledCollapse } from "reactstrap";
-import { product } from "../data/HomeProduct";
 import BannerForHome from "../components/BannerForHome";
 import WhatsappButton from "../components/WhatsappButton";
 import BlogCompanies from "../components/BlogCompanies";
+// import { product } from "../data/HomeProduct";
 
 const Home = () => {
   return (
@@ -193,7 +193,7 @@ const Home = () => {
       <hr />
 
       {/* PRODUCT */}
-      <div className="product-main container">
+      {/* <div className="product-main container">
         <div className="product-title">
           <h1>Business</h1>
           <div className="d-flex">
@@ -218,7 +218,7 @@ const Home = () => {
             </Col>
           ))}
         </Row>
-      </div>
+      </div> */}
 
       <div>
         <Row style={{ width: "100%", height: "500px" }} className="m-0">
