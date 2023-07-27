@@ -13,6 +13,7 @@ import img12 from "../assets/img/img12.png";
 import img13 from "../assets/img/img13.png";
 import img14 from "../assets/img/img14.png";
 import img15 from "../assets/img/img15.png";
+import img16 from "../assets/img/img16.png";
 
 export const product = [
     {
@@ -91,7 +92,7 @@ export const product = [
         "dis" : "(ORIGIN) - Madhya Pradesh (VARIETY) - Powder and Seed Foam (QUANTITY) - As per Requirement"
     },
     {
-        "img" : img6,
+        "img" : img16,
         "title" : "Cuminseed",
         "dis" : "(ORIGIN) - Gujarat (VARIETY) - Black and White (Quantity) - As per Requirements"
     }

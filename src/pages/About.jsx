@@ -60,7 +60,9 @@ const About = () => {
                   alt="about1"
                 />
                 <div>
-                  <h5 className="mb-3" style={{ fontWeight: "500" }}>Goods Packaging</h5>
+                  <h5 className="mb-3" style={{ fontWeight: "500" }}>
+                    Goods Packaging
+                  </h5>
                   <p>
                     Packaging ought to be easy to use. The package should be
                     designed in such a manner that the product may be readily
@@ -109,7 +111,9 @@ const About = () => {
                   alt="about1"
                 />
                 <div>
-                  <h5 className="mb-3" style={{ fontWeight: "500" }}>Goods Tracking System</h5>
+                  <h5 className="mb-3" style={{ fontWeight: "500" }}>
+                    Goods Tracking System
+                  </h5>
                   <p>
                     Goods tracking is a type of feature that enables shipping
                     businesses to keep track of all the shipments and find them
@@ -131,7 +135,9 @@ const About = () => {
                   alt="about1"
                 />
                 <div>
-                  <h5 className="mb-3" style={{ fontWeight: "500" }}>High Protection</h5>
+                  <h5 className="mb-3" style={{ fontWeight: "500" }}>
+                    High Protection
+                  </h5>
                   <p>
                     Cargo securities are designed to safeguard goods from theft,
                     and protect containers from explosives or narcotics. When
