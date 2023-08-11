@@ -1,8 +1,8 @@
 import React from "react";
 import { Button, Col, Input, NavLink, Row } from "reactstrap";
 import logo from "../assets/icon/logo-black.png";
-import facebook from "../assets/icon/footer-facebook.png";
-import instagram from "../assets/icon/footer-instagram.png";
+import facebook from "../assets/icon/facebook.png";
+import instagram from "../assets/icon/instagram.png";
 import twitter from "../assets/icon/twitter.png";
 import "../css/footer.css";
 
@@ -48,9 +48,9 @@ const Footer = () => {
             <Input className="ipnut-subscribe" placeholder="Your email" />
             <Button className="btn btn-started mt-4">Get started</Button>
             <div className="d-flex mt-5 justify-content-center">
-              <Button className="btn btn-social mx-1 px-2 py-2">
+              <Button className="btn btn-social mx-1 px-2">
                 <a href="https://www.facebook.com/bhart.khatik?mibextid=2JQ9oc">
-                  <img src={facebook} alt="facebook" />
+                  <img src={facebook} alt="facebook" width="25px"height="25px"/>
                 </a>
               </Button>
               <Button
@@ -58,15 +58,15 @@ const Footer = () => {
                 style={{ paddingRight: "10px", paddingLeft: "10px" }}
               >
                 <a href="https://twitter.com/snkinter8287">
-                  <img src={twitter} alt="twitter" />
+                  <img src={twitter} alt="twitter" width="20px"height="20px"/>
                 </a>
               </Button>
               <Button
-                className="btn btn-social mx-1 py-2"
-                style={{ paddingRight: "10px", paddingLeft: "10px" }}
+                className="btn btn-social mx-1"
+                style={{ padding:'0px 5px'}}
               >
                 <a href="https://instagram.com/snk_international_expoter?igshid=OGQ5ZDc2ODk2ZA==">
-                  <img src={instagram} alt="instagram" />
+                  <img src={instagram} alt="instagram" width="30px"height="30px"/>
                 </a>
               </Button>
             </div>

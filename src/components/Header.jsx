@@ -84,32 +84,44 @@ const Header = () => {
               </NavItem>
               <NavItem className="d-flex">
                 <NavLink className="px-2" href="#">
-                  <Button
-                    className="btn btn-social"
-                    style={{ paddingTop: "5px", paddingBottom: "5px" }}
-                  >
+                  <Button className="btn btn-social" style={{ padding: "5px" }}>
                     <a href="https://www.facebook.com/bhart.khatik?mibextid=2JQ9oc">
-                      <img src={facebook} alt="facebook" />
+                      <img
+                        src={facebook}
+                        alt="facebook"
+                        width="25px"
+                        height="25px"
+                      />
                     </a>
                   </Button>
                 </NavLink>
                 <NavLink className="px-2" href="#">
                   <Button
                     className="btn btn-social"
-                    style={{ padding: "5px 7px" }}
+                    style={{ padding: "7px 8px" }}
                   >
                     <a href="https://twitter.com/snkinter8287">
-                      <img src={twitter} alt="twitter" />
+                      <img
+                        src={twitter}
+                        alt="twitter"
+                        width="20px"
+                        height="20px"
+                      />
                     </a>
                   </Button>
                 </NavLink>
                 <NavLink className="px-2" href="#">
                   <Button
                     className="btn btn-social"
-                    style={{ padding: "5px 9px" }}
+                    style={{ padding: " 4px" }}
                   >
                     <a href="https://instagram.com/snk_international_expoter?igshid=OGQ5ZDc2ODk2ZA==">
-                      <img src={instagram} alt="instagram" />
+                      <img
+                        src={instagram}
+                        alt="instagram"
+                        width="30px"
+                        height="30px"
+                      />
                     </a>
                   </Button>
                 </NavLink>
