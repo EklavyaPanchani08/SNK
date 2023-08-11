@@ -4,8 +4,6 @@ import logo from "../assets/icon/logo-black.png";
 import facebook from "../assets/icon/footer-facebook.png";
 import instagram from "../assets/icon/footer-instagram.png";
 import twitter from "../assets/icon/twitter.png";
-import linkdin from "../assets/icon/footer-linkdin.png";
-import youtube from "../assets/icon/footer-youtube.png";
 import "../css/footer.css";
 
 const Footer = () => {
@@ -17,21 +15,33 @@ const Footer = () => {
             <div className="logo-div mb-5">
               <img width="100%" src={logo} alt="logo" />
             </div>
-            <p>TY 89 Business center vesu Road Surat ,Gujarat , India 394221</p>
+            <p>Office:-2193, Raajmahal mall opp fire station Dindoli 394210</p>
             <p className="my-2">+91 93275 58693</p>
             <p>snkinternational8782@gmail.com</p>
           </Col>
           <Col md={3} className="fourth ps-5">
             <h5 className="mb-4">Resources</h5>
-            <NavLink href="/"><p>Home</p></NavLink>
-            <NavLink href="/about-us"><p>About</p></NavLink>
-            <NavLink href="/contact-us"><p>Contact Us</p></NavLink>
-            <NavLink href="/blog"><p>Blog</p></NavLink>
+            <NavLink href="/">
+              <p>Home</p>
+            </NavLink>
+            <NavLink href="/about-us">
+              <p>About</p>
+            </NavLink>
+            <NavLink href="/contact-us">
+              <p>Contact Us</p>
+            </NavLink>
+            <NavLink href="/blog">
+              <p>Blog</p>
+            </NavLink>
           </Col>
           <Col md={3} className="third">
             <h5 className="mb-4">Product</h5>
-            <NavLink href="/product/vegetables"><p>Vegetables</p></NavLink>
-            <NavLink href="/product/fruits"><p>Fruits</p></NavLink>
+            <NavLink href="/product/vegetables">
+              <p>Vegetables</p>
+            </NavLink>
+            <NavLink href="/product/fruits">
+              <p>Fruits</p>
+            </NavLink>
           </Col>
           <Col md={3}>
             <h5 className="mb-4">Subscribe</h5>
@@ -39,19 +49,25 @@ const Footer = () => {
             <Button className="btn btn-started mt-4">Get started</Button>
             <div className="d-flex mt-5 justify-content-center">
               <Button className="btn btn-social mx-1 px-2 py-2">
-                <img src={facebook} alt="facebook" />
+                <a href="https://www.facebook.com/bhart.khatik?mibextid=2JQ9oc">
+                  <img src={facebook} alt="facebook" />
+                </a>
               </Button>
-              <Button className="btn btn-social mx-1 py-2" style={{paddingRight:'10px',paddingLeft:'10px'}}>
-                <img src={twitter} alt="twitter" />
+              <Button
+                className="btn btn-social mx-1 py-2"
+                style={{ paddingRight: "10px", paddingLeft: "10px" }}
+              >
+                <a href="https://twitter.com/snkinter8287">
+                  <img src={twitter} alt="twitter" />
+                </a>
               </Button>
-              <Button className="btn btn-social mx-1 px-2 py-2">
-                <img src={youtube} alt="youtube" />
-              </Button>
-              <Button className="btn btn-social mx-1 py-2" style={{paddingRight:'10px',paddingLeft:'10px'}}>
-                <img src={linkdin} alt="linkdin" />
-              </Button>
-              <Button className="btn btn-social mx-1 py-2" style={{paddingRight:'10px',paddingLeft:'10px'}}>
-                <img src={instagram} alt="instagram" />
+              <Button
+                className="btn btn-social mx-1 py-2"
+                style={{ paddingRight: "10px", paddingLeft: "10px" }}
+              >
+                <a href="https://instagram.com/snk_international_expoter?igshid=OGQ5ZDc2ODk2ZA==">
+                  <img src={instagram} alt="instagram" />
+                </a>
               </Button>
             </div>
           </Col>

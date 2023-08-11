@@ -16,6 +16,7 @@ const Contact = () => {
     firstName: "",
     lastName: "",
     email: "",
+    phone: "",
     message: "",
   });
 
@@ -29,6 +30,7 @@ const Contact = () => {
           firstName: userData.firstName,
           lastName: userData.lastName,
           email: userData.email,
+          phone: userData.phone,
           message: userData.message,
         },
         "iB7uMsyQnpT2XRSvF"
@@ -38,6 +40,7 @@ const Contact = () => {
           firstName: "",
           lastName: "",
           email: "",
+          phone: "",
           message: "",
         });
         toast.success("Your message has been sended successfully 🙌");
@@ -48,6 +51,7 @@ const Contact = () => {
           firstName: "",
           lastName: "",
           email: "",
+          phone: "",
           message: "",
         });
       });
@@ -63,7 +67,6 @@ const Contact = () => {
   return (
     <>
       <Banner title="Contact Us" />
-
       {/* CONTACT FORM */}
       <div className="container">
         <Row className="my-5">
@@ -105,18 +108,37 @@ const Contact = () => {
                 </Col>
               </Row>
 
-              <FormGroup>
-                <Label for="email">Email</Label>
-                <Input
-                  required
-                  className="contact-input"
-                  id="email"
-                  name="email"
-                  placeholder="Enter your email"
-                  type="email"
-                  onChange={handleInputChange}
-                />
-              </FormGroup>
+              <Row>
+                <Col md={6}>
+                  <FormGroup>
+                    <Label for="email">Email</Label>
+                    <Input
+                      required
+                      className="contact-input"
+                      id="email"
+                      name="email"
+                      placeholder="Enter your email"
+                      type="email"
+                      onChange={handleInputChange}
+                    />
+                  </FormGroup>
+                </Col>
+                <Col md={6}>
+                  <FormGroup>
+                    <Label for="email">Phone No.</Label>
+                    <Input
+                      required
+                      className="contact-input"
+                      id="phone"
+                      name="phone"
+                      placeholder="Enter your phone"
+                      type="tel"
+                      onChange={handleInputChange}
+                    />
+                  </FormGroup>
+                </Col>
+              </Row>
+
               <FormGroup>
                 <Label for="exampleEmail">Comment or Message</Label>
                 <Input
@@ -183,10 +205,9 @@ const Contact = () => {
           </Col>
         </Row>
       </div>
-
-      {/* MAP SECTION */}
+      {/* MAP SECTION */}s
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d80277.10359717274!2d72.81028713510291!3d21.154831446410416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04e59411d1563%3A0xfe4558290938b042!2sSurat%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1689952709738!5m2!1sen!2sin"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.17019544526!2d72.8776474!3d21.145624099999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be05103932f5451%3A0x9b8f9cb6eaa51e70!2sRaajmahal%20Mall!5e0!3m2!1sen!2sin!4v1691608663540!5m2!1sen!2sin"
         width="100%"
         height="500"
         style={{ border: 0 }}
@@ -195,11 +216,9 @@ const Contact = () => {
         referrerpolicy="no-referrer-when-downgrade"
         title="map"
       ></iframe>
-
       <div class="container my-5">
         <BlogCompanies />
       </div>
-
       <WhatsappButton />
     </>
   );

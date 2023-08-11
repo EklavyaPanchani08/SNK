@@ -9,6 +9,7 @@ import Vegetables from '../pages/Vegetables';
 import Fruites from '../pages/Fruites';
 
 const Routes = () => {
+
   return (
     <>
     <Router>

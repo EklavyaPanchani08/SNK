@@ -26,7 +26,9 @@ const Header = () => {
           <Col lg={3}>
             <div className="align-items-center d-flex">
               <div>
-                <a href="/"><img width="100px" height="100px" src={logo} alt="logo" /></a>
+                <a href="/">
+                  <img width="100px" height="100px" src={logo} alt="logo" />
+                </a>
               </div>
               <div className="header-time">
                 <img src={clock} alt="clock" />
@@ -35,7 +37,7 @@ const Header = () => {
             </div>
           </Col>
           <Col lg={9}>
-            <Nav className="justify-content-end align-items-center"> 
+            <Nav className="justify-content-end align-items-center">
               <NavItem>
                 <NavLink href="/">Home</NavLink>
               </NavItem>
@@ -44,8 +46,23 @@ const Header = () => {
                   Our Product
                 </DropdownToggle>
                 <DropdownMenu right>
-                  <DropdownItem><NavLink className="product-option-nav-link" href="/product/vegetables">Vegetables</NavLink> <hr style={{margin:"10px 0px 3px 0px"}}/></DropdownItem>
-                  <DropdownItem><NavLink className="product-option-nav-link" href="/product/fruits">Fruits</NavLink></DropdownItem>
+                  <DropdownItem>
+                    <NavLink
+                      className="product-option-nav-link"
+                      href="/product/vegetables"
+                    >
+                      Vegetables
+                    </NavLink>{" "}
+                    <hr style={{ margin: "10px 0px 3px 0px" }} />
+                  </DropdownItem>
+                  <DropdownItem>
+                    <NavLink
+                      className="product-option-nav-link"
+                      href="/product/fruits"
+                    >
+                      Fruits
+                    </NavLink>
+                  </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
               <NavItem>
@@ -54,28 +71,46 @@ const Header = () => {
               <NavItem>
                 <NavLink href="/contact-us">Contact Us</NavLink>
               </NavItem>
-              <NavItem>
-              </NavItem>
+              <NavItem></NavItem>
               <NavItem>
                 <NavLink href="/blog">Blog</NavLink>
               </NavItem>
               <NavItem className="ms-4 me-3">
-                <a href="tel:+9327558693"><Button className="btn btn-white btn-call">Call Us Now</Button> </a>
+                <a href="tel:+9327558693">
+                  <Button className="btn btn-white btn-call">
+                    Call Us Now
+                  </Button>{" "}
+                </a>
               </NavItem>
               <NavItem className="d-flex">
                 <NavLink className="px-2" href="#">
-                  <Button className="btn btn-social" style={{paddingTop:'5px', paddingBottom:'5px'}}>
-                    <img src={facebook} alt="facebook" />
+                  <Button
+                    className="btn btn-social"
+                    style={{ paddingTop: "5px", paddingBottom: "5px" }}
+                  >
+                    <a href="https://www.facebook.com/bhart.khatik?mibextid=2JQ9oc">
+                      <img src={facebook} alt="facebook" />
+                    </a>
                   </Button>
                 </NavLink>
                 <NavLink className="px-2" href="#">
-                  <Button className="btn btn-social" style={{padding:'5px 9px'}}>
-                    <img src={instagram} alt="instagram" />
-                  </Button> 
+                  <Button
+                    className="btn btn-social"
+                    style={{ padding: "5px 7px" }}
+                  >
+                    <a href="https://twitter.com/snkinter8287">
+                      <img src={twitter} alt="twitter" />
+                    </a>
+                  </Button>
                 </NavLink>
                 <NavLink className="px-2" href="#">
-                  <Button className="btn btn-social" style={{padding:'5px 7px'}}>
-                    <img src={twitter} alt="twitter" />
+                  <Button
+                    className="btn btn-social"
+                    style={{ padding: "5px 9px" }}
+                  >
+                    <a href="https://instagram.com/snk_international_expoter?igshid=OGQ5ZDc2ODk2ZA==">
+                      <img src={instagram} alt="instagram" />
+                    </a>
                   </Button>
                 </NavLink>
               </NavItem>
