@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslation } from 'react-i18next';
 import { Button, Col, Input, NavLink, Row } from "reactstrap";
-import logo from "../assets/icon/logo-black.png";
+// import logo from "../assets/icon/logo-black.png";
 import facebook from "../assets/icon/facebook.png";
 import instagram from "../assets/icon/instagram.png";
 import twitter from "../assets/icon/twitter.png";
@@ -14,9 +14,8 @@ const Footer = () => {
       <div className="container">
         <Row className="align-items-start footer-row">
           <Col className="first" md={3}>
-            <div className="logo-div mb-5">
-              <img width="100%" src={logo} alt="logo" />
-            </div>
+              {/* <img width="100%" src={logo} alt="logo" /> */}
+              <h5 className="mb-4">Head Office</h5>
             <p>{t('footer.content.address')}</p>
             <p className="my-2">{t('footer.content.mobile')}</p>
             <p>{t('footer.content.email')}</p>

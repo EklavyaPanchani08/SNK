@@ -174,7 +174,17 @@ const Contact = () => {
                   src={phone}
                   alt=""
                 />
-                <p style={{ fontSize: "16px" }}>+91 9327558693</p>
+                <p style={{ fontSize: "16px" }}>+91 +91 9327558693</p>
+              </div>
+              <div className="d-flex justify-content-start my-4 align-content-center">
+                <img
+                  className="me-2"
+                  width="35px"
+                  height="35px"
+                  src={phone}
+                  alt=""
+                />
+                <p style={{ fontSize: "16px" }}>+91 +91 8238804711</p>
               </div>
               <div className="d-flex justify-content-start my-4 align-content-center">
                 <img
@@ -185,7 +195,7 @@ const Contact = () => {
                   alt=""
                 />
                 <p style={{ fontSize: "16px" }}>
-                  thesnkinternational@gmail.com
+                snkinternational8782@gmail.comF
                 </p>
               </div>
               <div className="d-flex justify-content-start my-4 align-content-center">

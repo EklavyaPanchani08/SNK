@@ -1,6 +1,6 @@
 {
     "header": {
-        "time": "(Mo-Sa) 9:00 - 20:00 Uhr",
+        "time": "24*7 available",
         "home": "Heim",
         "product": {
             "title": "Unser Produkt",
@@ -39,7 +39,7 @@
     },
     "home": {
         "banner": {
-            "title": "Wir bieten erstklassige Qualitätsprodukte",
+            "title": "Wir handeln mit hochwertigen Bio-Lebensmitteln",
             "subTitle": "Wir sind stolz darauf, die besten Transport- und Versanddienstleistungen weltweit anzubieten. Unser kompetentes Personal, Tracking und kombiniert mit Erfahrung durch integrierte Supply-Chain-Lösungen!",
             "button": "Über SNK",
             "signup": {
@@ -70,7 +70,7 @@
             "title": "ZUFRIEDENE KUNDEN SAGTEN",
             "customerOne": {
                 "content": "“Ich nutze ZYL Logistics nur für meinen Versandbedarf. Meine Kunden erwarten inzwischen alle einen hervorragenden Versand und eine hervorragende Abwicklung ihrer Waren.”",
-                "title": "Pavan Prajapati",
+                "title": "Jante olia I",
                 "subTitle": "CEO, GIGATRON"
             },
             "customerTwo": {
@@ -80,7 +80,7 @@
             },
             "customerThree": {
                 "content": "“Ich nutze ZYL Logistics nur für meinen Versandbedarf. Meine Kunden erwarten inzwischen alle einen hervorragenden Versand und eine hervorragende Abwicklung ihrer Waren.”",
-                "title": "Pavan Prajapati",
+                "title": "Jante olia I",
                 "subTitle": "CEO, GIGATRON"
             },
             "customerFour": {

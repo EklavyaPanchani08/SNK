@@ -4,11 +4,11 @@ import fruit1 from "../assets/img/Fruits/fruit1.png";
 import fruit2 from "../assets/img/Fruits/fruit2.png";
 import fruit3 from "../assets/img/Fruits/fruit3.jpg";
 import fruit4 from "../assets/img/Fruits/fruit4.jpg";
-import fruit5 from "../assets/img/Fruits/fruit5.jpg";
+// import fruit5 from "../assets/img/Fruits/fruit5.jpg";
 import fruit6 from "../assets/img/Fruits/fruit6.jpg";
 import fruit7 from "../assets/img/Fruits/fruit7.jpg";
 import fruit8 from "../assets/img/Fruits/fruit8.jpg";
-import fruit9 from "../assets/img/Fruits/fruit9.jpg";
+// import fruit9 from "../assets/img/Fruits/fruit9.jpg";
 import fruit10 from "../assets/img/Fruits/fruit10.jpg";
 import fruit11 from "../assets/img/Fruits/fruit11.png";
 import { Button, Col, Row } from "reactstrap";
@@ -142,7 +142,7 @@ const Fruits = () => {
             </ul>
           </Col>
         </Row>
-        <Row className="align-items-flex-start fruits-main justify-content-center my-5">
+        {/* <Row className="align-items-flex-start fruits-main justify-content-center my-5">
           <h3 className="d-flex justify-content-center mb-5">
             {t('fruits.carrots.title')}
           </h3>
@@ -169,7 +169,7 @@ const Fruits = () => {
               {t('fruits.carrots.button')}
             </Button>
           </Col>
-        </Row>
+        </Row> */}
         <Row className="align-items-flex-start fruits-main justify-content-center my-5">
           <h3 className="d-flex justify-content-center mb-5">
             {t('fruits.muskmelon.title')}
@@ -261,7 +261,7 @@ const Fruits = () => {
             </ul>
           </Col>
         </Row>
-        <Row className="align-items-flex-start fruits-main justify-content-center my-5">
+        {/* <Row className="align-items-flex-start fruits-main justify-content-center my-5">
           <h3 className="d-flex justify-content-center mb-5">
             {t('fruits.sweetPotato.title')}
           </h3>
@@ -288,7 +288,7 @@ const Fruits = () => {
               {t('fruits.sweetPotato.button')}
             </Button>
           </Col>
-        </Row>
+        </Row> */}
         <Row className="align-items-flex-start fruits-main justify-content-center my-5">
           <h3 className="d-flex justify-content-center mb-5">
             {t('fruits.cucumber.title')}

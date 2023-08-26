@@ -1,6 +1,6 @@
 {
     "header": {
-        "time": "(Mon-Sat) 9:00 - 20:00",
+        "time": "24*7 available",
         "home": "Home",
         "product": {
             "title": "Our Product",
@@ -39,7 +39,7 @@
     },
     "home": {
         "banner": {
-            "title": "We Provide Premium Quality Product",
+            "title": "We Deal In Premium Quality Organic Food Products",
             "subTitle": "We pride ourselves on providing the best transport and shipping services available allover the world. Our skilled personal, tracking and combined with experience through integrated supply chain solutions!",
             "button": "About SNK",
             "signup": {
@@ -70,7 +70,7 @@
             "title": "HAPPY CUSTOMERS SAID",
             "customerOne": {
                 "content": "“I am only use ZYL logistics for my shipping needs. My clients have all come to expect excellent shipping & handling of their merchandise.”",
-                "title": "Pavan Prajapati",
+                "title": "Jante olia I",
                 "subTitle": "CEO, GIGATRON"
             },
             "customerTwo": {
@@ -80,7 +80,7 @@
             },
             "customerThree": {
                 "content": "“I am only use ZYL logistics for my shipping needs. My clients have all come to expect excellent shipping & handling of their merchandise.”",
-                "title": "Pavan Prajapati",
+                "title": "Jante olia I",
                 "subTitle": "CEO, GIGATRON"
             },
             "customerFour": {

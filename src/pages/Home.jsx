@@ -14,6 +14,7 @@ import { Button, Col, Input, Row, UncontrolledCollapse } from "reactstrap";
 import BannerForHome from "../components/BannerForHome";
 import WhatsappButton from "../components/WhatsappButton";
 import BlogCompanies from "../components/BlogCompanies";
+import whoWeAre from "../assets/img/who-we-are.jpg"
 // import { product } from "../data/HomeProduct";
 
 const Home = () => {
@@ -97,6 +98,11 @@ const Home = () => {
             </Col>
           </Row>
         </div>
+      </div>
+
+      {/* whoWeAre */}
+      <div className="my-3">
+        <img style={{maxWidth:'100%'}} src={whoWeAre} alt="whoWeAre" />
       </div>
 
       {/* REVIEW */}
