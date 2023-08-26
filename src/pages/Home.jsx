@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from 'react-i18next';
 import Slider from "react-slick";
 import mapIcon from "../assets/img/map.png";
 import arrow from "../assets/icon/arrow.png";
@@ -16,13 +17,13 @@ import BlogCompanies from "../components/BlogCompanies";
 // import { product } from "../data/HomeProduct";
 
 const Home = () => {
+  const { t } = useTranslation();
   return (
     <>
       <BannerForHome
-        title="We Provide Premium Quality Product"
-        subTitter="We pride ourselves on providing the best transport and shipping services available allover the world.
-          Our skilled personal, tracking and combined with experience through integrated supply chain solutions!"
-        button="About SNK"
+        title={t('home.banner.title')}
+        subTitter={t('home.banner.subTitle')}
+        button={t("home.banner.button")}
       />
 
       {/* MAP & SUBSCRIBE */}
@@ -37,48 +38,38 @@ const Home = () => {
           <div>
             <img src={mapIcon} alt="map" width="350px" />
             <div style={{ position: "absolute", top: "25px", left: "240px" }}>
-              <h6>
-                Sign up for industry alerts, insights from SNK INTERNATIONAL
-                Export Import
-              </h6>
+              <h6>{t('home.banner.signup.title')}</h6>
               {/* eslint-disable-next-line */}
               <a href="#" style={{ fontSize: "12px" }}>
-                Get Started <img className="ms-1" src={arrow} alt="" />
+                {t('home.banner.signup.button')} <img className="ms-1" src={arrow} alt="" />
               </a>
             </div>
           </div>
         </Col>
 
         <Col className="map-subscribe">
-          <Input className="ipnut-subscribe" placeholder="Your Email Address" />
-          <Button className="btn btn-started ms-1 btn-black">Submit</Button>
+          <Input className="ipnut-subscribe" placeholder={t('home.banner.signup.search')} />
+          <Button className="btn btn-started ms-1 btn-black">{t('home.banner.signup.searchButton')}</Button>
         </Col>
       </Row>
 
       {/* SERVICES */}
       <div className="container services-main my-5">
         <div className="services-first">
-          <h1>SERVICES</h1>
-          <h2>WHAT WE DO</h2>
+          <h1>{t('home.services.title')}</h1>
+          <h2>{t('home.services.subTitle')}</h2>
         </div>
 
         <Row className="mt-5 services-second">
           <Col>
             <img style={{ width: "80px" }} src={ship} alt="ship" />
-            <h5 className="my-2">Export</h5>
-            <p>
-              We are Exporting best quality product around the world, You need
-              best product on time you are at right place SNK International
-            </p>
+            <h5 className="my-2">{t('home.services.firstService.title')}</h5>
+            <p>{t('home.services.firstService.subTitle')}</p>
           </Col>
           <Col>
             <img style={{ width: "80px" }} src={network} alt="network" />
-            <h5 className="my-2">Sourcing Agent</h5>
-            <p>
-              We are working as local partner of our foreign client to source
-              best quality product from India as per client requirement and
-              Specification
-            </p>
+            <h5 className="my-2">{t('home.services.secondService.title')}</h5>
+            <p>{t('home.services.secondService.subTitle')}</p>
           </Col>
         </Row>
       </div>
@@ -96,18 +87,11 @@ const Home = () => {
               </div>
             </Col>
             <Col className="about-us-content">
-              <h3>About Us</h3>
-              <p>
-                SNK Internationalstarted in the year 2022 at Surat, Gujarat
-                India We Export All Agriculture Products . Under the leadership
-                of Mr. Pradeep Gupta , the company has emerged as one among the
-                leading exporters from India . Total customer satisfaction is
-                the main focus of the company . we are equipped with a state of
-                art manufacturing unit and production facility .
-              </p>
+              <h3>{t('home.aboutUs.title')}</h3>
+              <p>{t('home.aboutUs.content')}</p>
               <a href="/about-us">
                 <Button className="btn btn-started btn-black">
-                  Read More <img src={arrow} alt="arrow" />
+                  {t('home.aboutUs.readMore')} <img src={arrow} alt="arrow" />
                 </Button>
               </a>
             </Col>
@@ -117,21 +101,17 @@ const Home = () => {
 
       {/* REVIEW */}
       <div className="container" style={{ padding: "70px 0px" }}>
-        <h2 className="pb-4">HAPPY CUSTOMERS SAID</h2>
+        <h2 className="pb-4">{t('home.reviews.title')}</h2>
 
         <Slider slidesToShow={2} auto>
           <div>
             <div className="m-3 review">
-              <p>
-                “I am only use ZYL logistics for my shipping needs. My clients
-                have all come to expect excellent shipping & handling of their
-                merchandise.”
-              </p>
+              <p>{t('home.reviews.customerOne.content')}</p>
               <div className="review-inner d-flex justify-content-flex-start align-content-center pt-3">
                 <img src={customer1} alt="client" />
                 <div className="ms-3">
-                  <h5 className="mb-0">Pavan Prajapati</h5>
-                  <span>CEO, GIGATRON</span>
+                  <h5 className="mb-0">{t('home.reviews.customerOne.title')}</h5>
+                  <span>{t('home.reviews.customerOne.subTitle')}</span>
                 </div>
               </div>
             </div>
@@ -139,16 +119,12 @@ const Home = () => {
 
           <div>
             <div className="m-3 review">
-              <p>
-                “I wanted to take a minute to thank you & your logistic team. I
-                have grown comfortable leaning on ZYL Logistics team with some
-                of my end of the day.”
-              </p>
+              <p>{t('home.reviews.customerTwo.content')}</p>
               <div className="review-inner d-flex justify-content-flex-start align-content-center pt-3">
                 <img src={customer2} alt="client" />
                 <div className="ms-3">
-                  <h5 className="mb-0">Olivia Dench</h5>
-                  <span>CEO, AB CONSTRACTION</span>
+                  <h5 className="mb-0">{t('home.reviews.customerTwo.title')}</h5>
+                  <span>{t('home.reviews.customerTwo.subTitle')}</span>
                 </div>
               </div>
             </div>
@@ -156,16 +132,12 @@ const Home = () => {
 
           <div>
             <div className="m-3 review">
-              <p>
-                “I am only use ZYL logistics for my shipping needs. My clients
-                have all come to expect excellent shipping & handling of their
-                merchandise.”
-              </p>
+              <p>{t('home.reviews.customerThree.content')}</p>
               <div className="review-inner d-flex justify-content-flex-start align-content-center pt-3">
                 <img src={customer1} alt="client" />
                 <div className="ms-3">
-                  <h5 className="mb-0">Pavan Prajapati</h5>
-                  <span>CEO, GIGATRON</span>
+                  <h5 className="mb-0">{t('home.reviews.customerThree.title')}</h5>
+                  <span>{t('home.reviews.customerThree.subTitle')}</span>
                 </div>
               </div>
             </div>
@@ -173,16 +145,12 @@ const Home = () => {
 
           <div>
             <div className="m-3 review">
-              <p>
-                “I wanted to take a minute to thank you & your logistic team. I
-                have grown comfortable leaning on ZYL Logistics team with some
-                of my end of the day.”
-              </p>
+              <p>{t('home.reviews.customerFour.content')}</p>
               <div className="review-inner d-flex justify-content-flex-start align-content-center pt-3">
                 <img src={customer2} alt="client" />
                 <div className="ms-3">
-                  <h5 className="mb-0">Olivia Dench</h5>
-                  <span>CEO, AB CONSTRACTION</span>
+                  <h5 className="mb-0">{t('home.reviews.customerFour.title')}</h5>
+                  <span>{t('home.reviews.customerFour.subTitle')}</span>
                 </div>
               </div>
             </div>
@@ -225,44 +193,29 @@ const Home = () => {
           <Col md={6} className="trspot-1">
             <div className="my-2 toggle-main">
               <div className="toggle-div cursor-pointer" id="toggler1">
-                <span>01 Trasparent Pricing</span>
+                <span>{t('home.questions.firstQuestion.title')}</span>
               </div>
               <UncontrolledCollapse toggler="#toggler1">
-                <p>
-                  We are a trusted analytical partner to the financial services
-                  and are constantly formulating analytic solutions for large
-                  banks. Credit unions, casinos and travel companies. Throughout
-                  the globe.
-                </p>
+                <p>{t('home.questions.firstQuestion.subTitle')}</p>
               </UncontrolledCollapse>
               :
             </div>
 
             <div className="my-2 toggle-main">
               <div className="toggle-div cursor-pointer" id="toggler2">
-                <span>02 Real Time Tracking</span>
+                <span>{t('home.questions.secondQuestion.title')}</span>
               </div>
               <UncontrolledCollapse toggler="#toggler2">
-                <p>
-                  We are a trusted analytical partner to the financial services
-                  and are constantly formulating analytic solutions for large
-                  banks. Credit unions, casinos and travel companies. Throughout
-                  the globe.
-                </p>
+                <p>{t('home.questions.secondQuestion.subTitle')}</p>
               </UncontrolledCollapse>
             </div>
 
             <div className="my-2 toggle-main">
               <div className="toggle-div cursor-pointer" id="toggler3">
-                <span>03 Experienced Staff</span>
+                <span>{t('home.questions.thirdQuestion.title')}</span>
               </div>
               <UncontrolledCollapse toggler="#toggler3">
-                <p>
-                  We are a trusted analytical partner to the financial services
-                  and are constantly formulating analytic solutions for large
-                  banks. Credit unions, casinos and travel companies. Throughout
-                  the globe.
-                </p>
+                <p>{t('home.questions.thirdQuestion.subTitle')}</p>
               </UncontrolledCollapse>
             </div>
           </Col>
@@ -287,11 +240,11 @@ const Home = () => {
 
           <Col md={6} className="trspot-2 px-3">
             <div style={{ width: "600px" }}>
-              <h2>Moving Your Products Across All Borders</h2>
+              <h2>{t('home.questions.title')}</h2>
 
               <div className="my-4">
                 <div className="d-flex justify-content-between">
-                  <h6 className="range-title">Insurance & guarantee</h6>
+                  <h6 className="range-title">{t('home.questions.contentOne')}</h6>
                   <data value="98">98%</data>
                 </div>
                 <div className="skill-progress-bg">
@@ -303,7 +256,7 @@ const Home = () => {
               </div>
               <div className="my-4">
                 <div className="d-flex justify-content-between">
-                  <h6 className="range-title">Logistical Expertise</h6>
+                  <h6 className="range-title">{t('home.questions.contentTwo')}</h6>
                   <data value="91">91%</data>
                 </div>
                 <div className="skill-progress-bg">
@@ -315,7 +268,7 @@ const Home = () => {
               </div>
               <div className="my-4">
                 <div className="d-flex justify-content-between">
-                  <h6 className="range-title">Commercial Expertise</h6>
+                  <h6 className="range-title">{t('home.questions.contentThree')}</h6>
                   <data value="93">93%</data>
                 </div>
                 <div className="skill-progress-bg">
@@ -331,8 +284,8 @@ const Home = () => {
 
         <div class="container my-5">
           <div class="home-blog">
-            <h1>OUR BLOG</h1>
-            <h3>LATEST FROM OUR BLOG</h3>
+            <h1>{t('home.blog.title')}</h1>
+            <h3>{t('home.blog.subTitle')}</h3>
           </div>
           <BlogCompanies />
         </div>

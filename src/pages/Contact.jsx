@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useTranslation } from 'react-i18next';
 import { Button, Col, Form, FormGroup, Input, Label, Row } from "reactstrap";
 import logoBlack from "../assets/icon/logo-black.png";
 import phone from "../assets/icon/phone.png";
@@ -12,6 +13,7 @@ import emailjs from "@emailjs/browser";
 import { toast } from "react-toastify";
 
 const Contact = () => {
+  const { t } = useTranslation();
   const [userData, setUserData] = useState({
     firstName: "",
     lastName: "",
@@ -66,27 +68,24 @@ const Contact = () => {
 
   return (
     <>
-      <Banner title="Contact Us" />
+      <Banner title={t('contactUs.bannerTitle')} />
       {/* CONTACT FORM */}
       <div className="container">
         <Row className="my-5">
           <Col md={6}>
-            <h3 className="form-time-h3">Let’s Talk!</h3>
-            <p className="form-time-p">
-              Get in touch with us using the enquiry form or contact details
-              below.
-            </p>
+            <h3 className="form-time-h3">{t('contactUs.title')}</h3>
+            <p className="form-time-p">{t('contactUs.subTitle')}</p>
             <Form onSubmit={handleMailSend}>
               <Row>
                 <Col md={6}>
                   <FormGroup>
-                    <Label for="firstName">First Name</Label>
+                    <Label for="firstName">{t('contactUs.form.fname')}</Label>
                     <Input
                       required
                       className="contact-input"
                       id="firstName"
                       name="firstName"
-                      placeholder="Enter your first Name"
+                      placeholder={t('contactUs.form.fnameLabel')}
                       type="text"
                       onChange={handleInputChange}
                     />
@@ -94,13 +93,13 @@ const Contact = () => {
                 </Col>
                 <Col md={6}>
                   <FormGroup>
-                    <Label for="lastName">Last Name</Label>
+                    <Label for="lastName">{t('contactUs.form.lname')}</Label>
                     <Input
                       required
                       className="contact-input"
                       id="lastName"
                       name="lastName"
-                      placeholder="Enter your Last Name"
+                      placeholder={t('contactUs.form.lnameLabel')}
                       type="text"
                       onChange={handleInputChange}
                     />
@@ -111,13 +110,13 @@ const Contact = () => {
               <Row>
                 <Col md={6}>
                   <FormGroup>
-                    <Label for="email">Email</Label>
+                    <Label for="email">{t('contactUs.form.email')}</Label>
                     <Input
                       required
                       className="contact-input"
                       id="email"
                       name="email"
-                      placeholder="Enter your email"
+                      placeholder={t('contactUs.form.emailLabel')}
                       type="email"
                       onChange={handleInputChange}
                     />
@@ -125,13 +124,13 @@ const Contact = () => {
                 </Col>
                 <Col md={6}>
                   <FormGroup>
-                    <Label for="email">Phone No.</Label>
+                    <Label for="email">{t('contactUs.form.phone')}</Label>
                     <Input
                       required
                       className="contact-input"
                       id="phone"
                       name="phone"
-                      placeholder="Enter your phone"
+                      placeholder={t('contactUs.form.phoneLabel')}
                       type="tel"
                       onChange={handleInputChange}
                     />
@@ -140,12 +139,12 @@ const Contact = () => {
               </Row>
 
               <FormGroup>
-                <Label for="exampleEmail">Comment or Message</Label>
+                <Label for="exampleEmail">{t('contactUs.form.message')}</Label>
                 <Input
                   className="contact-input"
                   id="message"
                   name="message"
-                  placeholder="Enter your comment or message"
+                  placeholder={t('contactUs.form.messageLabel')}
                   type="textarea"
                   onChange={handleInputChange}
                 />
@@ -154,7 +153,7 @@ const Contact = () => {
                 // onClick={handleMailSend}
                 className="btn btn-black px-4 py-2"
               >
-                Submit
+                {t('contactUs.form.submit')}
               </Button>
             </Form>
           </Col>

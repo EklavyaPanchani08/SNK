@@ -1,0 +1,478 @@
+{
+    "header": {
+        "time": "(Mon-Sat) 9:00 - 20:00",
+        "home": "Home",
+        "product": {
+            "title": "Our Product",
+            "firstProduct": "Vegetables",
+            "secondProduct": "Fruits"
+        },
+        "about": "About Us",
+        "contact": "Contact Us",
+        "blog": "Blog",
+        "callUs": "Call Us Now"
+    },
+    "footer": {
+        "content": {
+            "address": "Office:-2193, Raajmahal mall opp fire station Dindoli 394210",
+            "mobile": "+91 93275 58693",
+            "email": "snkinternational8782@gmail.com"
+        },
+        "resources": {
+            "title": "Resources",
+            "home": "Home",
+            "about": "About",
+            "content": "Contact Us",
+            "blog": "Blog"
+        },
+        "product": {
+            "title": "Product",
+            "nameOne": "Vegetables",
+            "nameTwo": "Fruits"
+        },
+        "subscribe": {
+            "title": "Subscribe",
+            "emailTitle": "Your email",
+            "getStarted": "Get started"
+        },
+        "copyRight": "©All Copyright Reserved by SNK INTERNATION | Developed by Meet Kathiriya"
+    },
+    "home": {
+        "banner": {
+            "title": "We Provide Premium Quality Product",
+            "subTitle": "We pride ourselves on providing the best transport and shipping services available allover the world. Our skilled personal, tracking and combined with experience through integrated supply chain solutions!",
+            "button": "About SNK",
+            "signup": {
+                "title": "Sign up for industry alerts, insights from SNK INTERNATIONAL Export Import",
+                "button": "Get Started",
+                "search": "Your Email Address",
+                "searchButton": "Submit"
+            }
+        },
+        "services": {
+            "title": "SERVICES",
+            "subTitle": "WHAT WE DO",
+            "firstService": {
+                "title": "Export",
+                "subTitle": "We are Exporting best quality product around the world, You need best product on time you are at right place SNK International"
+            },
+            "secondService": {
+                "title": "Sourcing Agent",
+                "subTitle": "We are working as local partner of our foreign client to source best quality product from as per client requirement and Specification"
+            }
+        },
+        "aboutUs": {
+            "title": "About Us",
+            "content": "SNK Internationalstarted in the year 2022 at Surat, Gujarat India We Export All Agriculture Products. Under the leadership of Mr. Pradeep Gupta , the company has emerged as one among the leading exporters from India . Total customer satisfaction is the main focus of the company . we are equipped with a state of art manufacturing unit and production facility.",
+            "readMore": "Read More"
+        },
+        "reviews": {
+            "title": "HAPPY CUSTOMERS SAID",
+            "customerOne": {
+                "content": "“I am only use ZYL logistics for my shipping needs. My clients have all come to expect excellent shipping & handling of their merchandise.”",
+                "title": "Pavan Prajapati",
+                "subTitle": "CEO, GIGATRON"
+            },
+            "customerTwo": {
+                "content": "“I wanted to take a minute to thank you & your logistic team. I have grown comfortable leaning on ZYL Logistics team with some of my end of the day.”",
+                "title": "Olivia Dench",
+                "subTitle": "CEO, AB CONSTRACTION"
+            },
+            "customerThree": {
+                "content": "“I am only use ZYL logistics for my shipping needs. My clients have all come to expect excellent shipping & handling of their merchandise.”",
+                "title": "Pavan Prajapati",
+                "subTitle": "CEO, GIGATRON"
+            },
+            "customerFour": {
+                "content": "“I wanted to take a minute to thank you & your logistic team. I have grown comfortable leaning on ZYL Logistics team with some of my end of the day.”",
+                "title": "Olivia Dench",
+                "subTitle": "CEO, AB CONSTRACTION"
+            }
+        },
+        "questions": {
+            "firstQuestion": {
+                "title": "01 Trasparent Pricing",
+                "subTitle": "We are a trusted analytical partner to the financial services and are constantly formulating analytic solutions for large banks. Credit unions, casinos and travel companies. Throughout the globe."
+            },
+            "secondQuestion": {
+                "title": "02 Real Time Tracking",
+                "subTitle": "We are a trusted analytical partner to the financial services and are constantly formulating analytic solutions for large banks. Credit unions, casinos and travel companies. Throughout the globe."
+            },
+            "thirdQuestion": {
+                "title": "03 Experienced Staff",
+                "subTitle": "We are a trusted analytical partner to the financial services and are constantly formulating analytic solutions for large banks. Credit unions, casinos and travel companies. Throughout the globe."
+            },
+            "title": "Moving Your Products Across All Borders",
+            "contentOne": "Insurance & guarantee",
+            "contentTwo": "Logistical Expertise",
+            "contentThree": "Commercial Expertise"
+        },
+        "blog": {
+            "title": "OUR BLOG",
+            "subTitle": "LATEST FROM OUR BLOG",
+            "bannerTitle": "Blog"
+        }
+    },
+    "vegetables": {
+        "title": "Vegetables",
+        "oninons": {
+            "title": "10 Health Benefits of Onions",
+            "button": "Whatsapp",
+            "para1": "If you have ever cooked using recipes from your mom, grandma,Pinterest or really from anywhere, you may have noticed a commontheme. Most, if not all, of these recipes will instruct you to heat your pot, pan or Dutch oven with oil then add chopped onions, which you will sauté for a few minutes until softened. Onions are a kitchen staple that appear in many dishes, and there’s a reason for that.",
+            "para2": "If you are concerned about your health, you will want to consider adding more onions to your diet. The antioxidants and anti-inflammatory properties onions contain make consuming onions great for your heart health. Not only that, but they are also highly nutritious and delicious! This article will provide you with ten health benefits of onions.",
+            "para3": "1. Have Many Antioxidants Antioxidants may help prevent cell damage by fighting free radical molecules. Free radicals are developed when the body is exposed to radiation or tobacco smoke. These molecules can cause diabetes, heart disease, and cancer. By eating onions you can help your body fight free radicals and improve your overall health.",
+            "para4": "2. Help with Blood Sugar Levels If you have diabetes, onions are an excellent way to help keep your blood sugar levels steady. The flavonoids in onions work to keep the blood glucose levels stabilized. If levels are low, you might experience symptoms such as fatigue, anxiety, headache, and many other signs.",
+            "para5": "3. Improved Digestive Health Onions contain a high amount of prebiotics and fiber. In the body, this helps improve gut health by aiding in digestion, strengthening the immune system, and lowering inflammation.",
+            "para6": "4. Loaded with Nutrients Onions are considered to be nutrient-dense food. This means that they contain a small number of calories and a large number of nutrients. They are a great source of potassium and manganese. Potassium helps to increase energy and your metabolism. Manganese helps the body create connective tissue, aids in bone health, and lowers the chance of forming blood clots.",
+            "para7": "5. Anti-Inflammatory Properties Onions contain an antioxidant called quercetin. Quercetin is an anti-inflammatory and works to fight off inflammation within the body. It is great at lowering swelling, helping with arthritis, and treating bladder infections.",
+            "para8": "6. May Keep Certain Cancers at Bay If you are concerned about your risk of developing cancer, you may want to consume more onions. Researchers found moderate consumption of onions appeared to reduce the risk of colorectal, laryngeal, and ovarian cancers.",
+            "para9": "7. Reduces Risks of Alzheimer’s Disease Studies have been conducted to discover the relationship between quercetin and Alzheimer’s disease. These studies showed a significant association between consuming foods high in quercetin, such as onions, and having a lower chance of developing Alzheimer’s.",
+            "para10": "8. Great Source of Vitamin C Did you know that onions contain a high amount of vitamin C? Vitamin C is essential for your body to function properly. It helps the formation of blood vessels, improves your immune system, and builds cartilage.",
+            "para11": "9. Supports Bone Health Studies have proven that onions improve bone density in some people. As a result, the consumption of onions may help strengthen the bones and reduce risk of fractures for people over the age of 50.",
+            "para12": "10. Antibacterial The antibacterial properties of Allicin in onions help the colon fight off harmful bacteria. Allicin is the compound that gives off the unique strong smell of an onion. You can think of Allicin as your fighter against toxins and sicknesses. Now that’s something to cry happy tears about!",
+            "para13": "After reading about the ten health benefits that onions provide, you may be wondering how you can add more onions to your daily diet. A simple and quick way to start consuming more onions is using Spice World Easy Onion! You no longer have to deal with the hassle of peeling and chopping onions as your eyes well up with tears. All you need to do is squeeze the bottle for minced onions in an instant. It doesn’t get easier than that!"
+        },
+        "guav": {
+            "title": "10 Health Benifits of guav gum",
+            "button": "Whatsapp",
+            "para1": "1. Cures IBS When you take guar gum, you must know about its health benefits. To purchase this bean-like product, you must immediately choose the expert Guar Gum Manufacturer. So, it gives lots of things to consider in mind. It helps treat irritable bowel syndrome. Thus, you can balance good bacteria in your system and use them for add-on treatment. Let us discuss some of the healthbenefits of Guar gum in detail.",
+            "para2": "2. Relief for digestive discomfort When you take guar gum, it will reduce digestive pain. Of course, the ingredients have medicinal values and carry out diverse digestive applications. When taking a small amount of soluble fiber, it includes a group of people with IBS will overcome the trouble. Guar Gum is essential to convey a good solution and overcome constipation.",
+            "para3": "3. Feeding the good bugs Bacteria are causing illness to healthy human beings as well. However, it will develop a good solution and research based on health maintenance. To balance a healthy life, you can consider guar gum for the digestive system. Guar gum is widely used for gastrointestinal problems because of its medicinal properties. So, it will overcome allergies and other symptoms.",
+            "para4": "4. Lowering cholesterol Reduced cholesterol levels are the main guar gum benefits to explore. Of course, it is applicable for type 1 and types two diabetes. However, guar gum has some medical properties in reducing cholesterol levels. Due to lower blood glucose and cholesterol levels, guar gum will be a long-term usage for their healthy life.",
+            "para5": "5. Digestive Health Digestive health is essential for us. Of course, we have to maintain our health safely. Taking guar gum improves digestive health and can set out a new solution. It is associated with more benefits and is likely to increase bowel movement. There is an improvement in stool texture and bowel activities. It is rich in fiber, and treats promote digestive health.",
+            "para6": "6. Blood sugar The blood sugar level is, of course, the best benefit to notice in Guar Gum. It will develop a good solution and be able to control the blood sugar levels. It includes blood sugar level control measures. By noticing the natural bean extracts, it will reduce blood glucose levels quickly. You must take it four times per day for six weeks, and found to decrease blood sugar levels with LDL cholesterol.",
+            "para7": "7. Blood cholesterol Soluble fibers are always rich in guar gum. In a recent report, taking guar gum will reduce the cholesterol lowering effects. However, it will develop a good solution, and the cause with extract depends on the reducing numbers. So, they should work well with decreased cholesterol levels accordingly. Fifteen grams of guar gum contains properties to reduce obesity and diabetes. This daily supplement will improve living and reduce harmful cholesterol levels. It boosts blood circulation and produces more bile acids to decrease cholesterol levels.",
+            "para8": "8. Weight maintenance Weight maintenance is essential by taking guar gum for a healthy life. However, it considers a lower level of cholesterol and aid in weight loss. Appetite control is, of course, the best thing and adapts to promote better health. Thus, Guar Gum benefits consider a vital role and reduce appetite levels. In general, it eats an additional 14 grams of fiber per day, leading to a 10% decrease in calories.",
+            "para9": "9. Reduce appetite and calorie intake Guar gum may be probiotic and reduce the appetite and calorie intake. The ingredients are widely used for various purposes. So, it will reduce appetitive and calorie inputs accordingly. It is helpful for weight loss in women. The effects of guar gum take complete pledge solution and include more calorie intake.",
+            "para10": "10. Good dietary supplement Finally, guar gum is used as the best dietary supplement and additive to processed foods. Of course, they come with more health benefits and are likely to balance the digestive system well. Thus, it captures good attention from the dietary supplement for balancing the diet plan. Thus, you must use guar gum for noticing various health benefits forever."
+        },
+        "okra": {
+            "title": "10 Health Benefits of green Okra",
+            "button": "Whatsapp",
+            "para1": "1. Prevents Anaemia",
+            "para2": "2. Promote Healthy Pregnancy",
+            "para3": "3. Rich in Amino Acid",
+            "para4": "4. Great for Weight Loss",
+            "para5": "5. Regulates Blood Sugar",
+            "para6": "6. Promotes",
+            "para7": "7. Healthy Skin",
+            "para8": "8. Improves Heart",
+            "para9": "9. Health",
+            "para10": "10. Protects from",
+            "para11": "11. Stomach Ulcer",
+            "para12": "12. Assists",
+            "para13": "13. Respiratory",
+            "para14": "14. Problem",
+            "para15": "15. Beneficial for all",
+            "para16": "16. IBS issues"
+        },
+        "chillies": {
+            "title": "Benefits of Green Chillies",
+            "button": "Whatsapp",
+            "para1": "1. Protecting from Chronic Diseases.",
+            "para2": "2. Helpful Against Diabetes.",
+            "para3": "3. Helping Cure Anaemia.",
+            "para4": "4. Antimicrobial Properties.",
+            "para5": "5. Promoting Healthy Skin.",
+            "para6": "6. Aiding Weight Loss.",
+            "para7": "7. Increasing Body Temperature During",
+            "para8": "8. Winters.",
+            "para9": "9. Reducing Stomach Ulcers.",
+            "para10": "10. Green chilli’s",
+            "para11": "11. Nutritional Component Value",
+            "para12": "12. Carbohydrates 9.46 g",
+            "para13": "13. Proteins 2 g"
+        },
+        "potato": {
+            "title": "Potato benefits",
+            "button": "Whatsapp",
+            "para1": "1. Calories: 164",
+            "para2": "2. Fat: 0.2g",
+            "para3": "3. Sodium: 24mg",
+            "para4": "4. Carbohydrates: 37g",
+            "para5": "5. Fiber: 4g",
+            "para6": "6. Sugars: 1.9g",
+            "para7": "7. Protein: 4.6g",
+            "para8": "8. Vitamin C: 14.4mg",
+            "para9": "9. Vitamin B6: 0.6mg",
+            "para10": "10.Protects from"
+        },
+        "garlic": {
+            "title": "Health Benefits of Garlic",
+            "button": "Whatsapp",
+            "para1": "1. Boosts Immune System",
+            "para2": "2. Treats Athlete's Food",
+            "para3": "3. Stops Toothaches",
+            "para4": "4. Curbs Cold + Flu Effects",
+            "para5": "5. Lowers Cholesterol",
+            "para6": "6. Treat Insect Bites",
+            "para7": "7. Promote Heart Health",
+            "para8": "8. Clears Nasal Congestion",
+            "para9": "9. Heal Cold Sores",
+            "para10": "10. Kills Parasites",
+            "para11": "11. Lowers Blood Pressure",
+            "para12": "12. Repel Mosquitoes",
+            "para13": "13. Prevent Blood Clots",
+            "para14": "14. Aid Poor Digestion"
+        },
+        "peas": {
+            "title": "10 HEALTH BENEFITS OF PEAS",
+            "button": "Whatsapp",
+            "para1": "1. Prevents Stomach Cancer",
+            "para2": "2. Good Source of Protein",
+            "para3": "3. Regulates Blood Sugar",
+            "para4": "4. High in Micro-nutrients",
+            "para5": "5. Aids Liver Function",
+            "para6": "6. Immune Booster",
+            "para7": "7. Low Calories",
+            "para8": "8. High in Fiber",
+            "para9": "9. High Energy",
+            "para10": "10. Anti-Aging"
+        },
+        "redOkra": {
+            "title": "Nutritional Benefits Of Red Okra",
+            "button": "Whatsapp",
+            "para1": "1. Antioxidant Benefits",
+            "para2": "2. Anti-Inflammatory Benefits",
+            "para3": "3. Anticancer Benefits",
+            "para4": "4. Anti-Obesity Benefits",
+            "para5": "5. Red Okra Health Benefits For The Skin",
+            "para6": "6. Health Benefits For Bones",
+            "para7": "7. Red Okra Health Benefits For The Heart",
+            "para8": "8. Red Okra Health Benefits For Digestion",
+            "para9": "9. Red Okra Health Benefits For The Eyes",
+            "para10": "10. Health Benefits For The Stomach fruit"
+        }
+    },
+    "fruits": {
+        "title": "Fruits",
+        "mangoes": {
+            "title": "10 Health Benefits of Mangoes",
+            "button": "Whatsapp",
+            "para1": "1. Combats Acidity",
+            "para2": "2. Blood Cleanser",
+            "para3": "3. Good for Normalising Insulin Levels",
+            "para4": "4. Promotes Good Eyesight",
+            "para5": "5. Lowers Cholesterol",
+            "para6": "6. Clears Skin",
+            "para7": "7. Prevents Cancer",
+            "para8": "8. Repairs Poor Digestion",
+            "para9": "9. Boosts Immune System",
+            "para10": "10. Heat Stroke Remedy"
+        },
+        "banana": {
+            "title": "Benefits of Bananas",
+            "button": "Whatsapp",
+            "para1": "1. Reduce depression",
+            "para2": "2. Regulate the bowel system",
+            "para3": "3. Reduce blood pressure & risk of heart disease",
+            "para4": "4. Help our bones grow stronger",
+            "para5": "5. Help individuals to quit smoking",
+            "para6": "6. Help prevent anemia",
+            "para7": "7. Provide us with energy",
+            "para8": "8. Reduce menstrual pains",
+            "para9": "9. Power our brains",
+            "para10": "10. Help prevent ulcers"
+        },
+        "lemon": {
+            "title": "BENEFITS OF LEMON",
+            "button": "Whatsapp",
+            "para1": "1. Calcium",
+            "para2": "2. Copper",
+            "para3": "3. Iron",
+            "para4": "4. Phosphorous",
+            "para5": "5. Selenium",
+            "para6": "6. Vitamin B1",
+            "para7": "7. Vitamin B2",
+            "para8": "8. Vitamin B6"
+        },
+        "oranges": {
+            "title": "10 Wonderful Health Benefits of Oranges",
+            "button": "Whatsapp",
+            "para1": "1. Full of vitamins & Minerals.",
+            "para2": "2. Protects Cardiovascular System.",
+            "para3": "3. Keep Teeth & Bones Healthy",
+            "para4": "4. Ragulates Blood Pressure.",
+            "para5": "5. Grill Heat Aid",
+            "para6": "6. Lowers Choleste",
+            "para7": "7. Protects Kidney",
+            "para8": "8. Fights Infections",
+            "para9": "9. Protects skins",
+            "para10": "10. Purifies Blood",
+            "para11": "11. Full Fibre"
+        },
+        "carrots": {
+            "title": "Health Benefits of Carrots",
+            "button": "Whatsapp",
+            "para1": "1. Improved Vision",
+            "para2": "2. Macular Degeneration",
+            "para3": "3. Anti-Aging",
+            "para4": "4. Healthy Glowing Skin",
+            "para5": "5. A Powerful Antiseptic",
+            "para6": "6. Prevent Heart Disease",
+            "para7": "7. Cleanse the Body",
+            "para8": "8. Healthy Teeth and Gums",
+            "para9": "9. Prevent Stroke",
+            "para10": "10. Cancer Prevention"
+        },
+        "muskmelon": {
+            "title": "Health Benefits of Muskmelon",
+            "button": "Whatsapp",
+            "para1": "1. Strengthens Bones and Muscles",
+            "para2": "2. Helps to Overcome Constipation",
+            "para3": "3. Prevents Dehydration",
+            "para4": "4. Improves Eye’s Vision",
+            "para5": "5. Reduces Mens trual Cramps",
+            "para6": "6. Controls Blood Pressure",
+            "para7": "7. Controls and Prevents the Risk of Cancer",
+            "para8": "8. Cures Stomach Ulcers",
+            "para9": "9. Keeps Your Skin Healthy",
+            "para10": "10. Benefits as a Hair Conditioner and Promotes",
+            "para11": "11. Hair Growth",
+            "para12": "12. Name Values",
+            "para13": "13. Water 89.7g",
+            "para14": "14. Energy 35Kcal",
+            "para15": "15. Protein 0.88g",
+            "para16": "16. Lipid 0.28g",
+            "para17": "17. Carbohydrates 8.36g",
+            "para18": "18. Dietary Fiber 0.8g"
+        },
+        "peanuts": {
+            "title": "10 Health benifits of Peanuts",
+            "button": "Whatsapp",
+            "para1": "1. Stablise Good/bad Cholesterol",
+            "para2": "2. Protects from Heart disease",
+            "para3": "3. Contains many amino acids",
+            "para4": "4. Good source of protein",
+            "para5": "5. Healthy for brain",
+            "para6": "6. Fights Free-Radicals",
+            "para7": "7. Contains good fat",
+            "para8": "8. Rich in Vitamin E",
+            "para9": "9. Protects Skin",
+            "para10": "10. Rich in fibre"
+        },
+        "corn": {
+            "title": "HEALTH BENEFITS OF CORN",
+            "button": "Whatsapp",
+            "para1": "1. Reduces risk of various cardiovascular diseases",
+            "para2": "2. Reduces cholesterol absorption in body",
+            "para3": "3. Rich source of vitamins and minerals",
+            "para4": "4. Helps maintain good vision and skin",
+            "para5": "5. Controls diabetes and hypertension",
+            "para6": "6. Reduces risk of hemerrhoids",
+            "para7": "7. Lower risk of colon cancer",
+            "para8": "8. Improves bone strength",
+            "para9": "9. Boost immune system"
+        },
+        "sweetPotato": {
+            "title": "10 Health Benefits of. Sweet Potato",
+            "button": "Whatsapp",
+            "para1": "1. Calming for Stomach",
+            "para2": "2. Anti-Inflammatory",
+            "para3": "3. Full of Nutrients",
+            "para4": "4. Healthy Heart",
+            "para5": "5. Boosts Immunity",
+            "para6": "6. Rich in Beta-Carotene",
+            "para7": "7. Good for Lung Functions",
+            "para8": "8. Detoxifying of Heavy Metals",
+            "para9": "9. Regulates Blood Sugar Levels",
+            "para10": "10. Easily Digestible (& Full of Fibre)"
+        },
+        "cucumber": {
+            "title": "Health Benefits of Cucumber",
+            "button": "Whatsapp",
+            "para1": "1. Hydrating - 95% Water",
+            "para2": "2. Aids Digestion",
+            "para3": "3. Flushes out Toxins",
+            "para4": "4. Reduces Cholesterol",
+            "para5": "5. Regulates Body Temperature",
+            "para6": "6. Promotes Hair Growth",
+            "para7": "7. Regulate Blood Alkalinity",
+            "para8": "8. Promotes Joint Health",
+            "para9": "9. Relieves Sunburns",
+            "para10": "10. Soothes Muscle Pain",
+            "para11": "11. Heals Diseased Gums",
+            "para12": "12. Builds Connective Tissues",
+            "para13": "13. Regulate Blood Pressure",
+            "para14": "14. Rich in Vitamin A, B1, B6, C & D",
+            "para15": "15. Folate,Calcium,magnesium and potassium"
+        },
+        "pomegranate": {
+            "title": "Helath Benifits of Sinduri pomegranate",
+            "button": "Whatsapp",
+            "para1": "1. Calories: 45",
+            "para2": "2. Total fat: 0 grams",
+            "para3": "3. Carbs: 11 grams",
+            "para4": "4. Protein: 2 grams",
+            "para5": "5. Fiber: 2 grams",
+            "para6": "6. Vitamin C: 14% of the RDI",
+            "para7": "7. Vitamin K: 62% of the RDI",
+            "para8": "8. Magnesium: 10% of the RDI",
+            "para9": "9. Potassium: 13% of the RDI",
+            "para10": "10. Manganese: 12% of the RDI"
+        }
+    },
+    "aboutUs": {
+        "bannerTitle": "About Us",
+        "title": "Who We Are?",
+        "subTitle": "About SNK International",
+        "content": {
+            "title": "About Us",
+            "desc": "SNK Internationalstarted in the year 2022 at Surat, Gujarat India We Export fresh Vegetables, Fruits , Spices , grains etc. Under the leadership of Mr. Pradeep Gupta , the company has emerged as one among the leading exporters from India . Total customer satisfaction is the main focus of the company . we are equipped with a state of art manufacturing unit and production facility . The company understands the importance of quality and timely delivery of merchandise in the competitive and challenging International Business scenario."
+        },
+        "about": {
+            "button": "SNK INTERNATIONAL",
+            "firstBox": {
+                "title": "Goods Packaging",
+                "desc": "Packaging ought to be easy to use. The package should be designed in such a manner that the product may be readily transported from one location to another and handled by intermediaries or customers."
+            },
+            "secondBox": {
+                "title": "Destination Possibilities",
+                "desc": "Customers' demands are based on a variety of aspects of the chosen location, including culture, architecture, food, infrastructure, geography, and so on. These qualities draw visitors to the site and enhance the entire travel experience."
+            },
+            "thirdBox": {
+                "title": "Goods Tracking System",
+                "desc": "Goods tracking is a type of feature that enables shipping businesses to keep track of all the shipments and find them along with route, delivering real-time information."
+            },
+            "fourthBox": {
+                "title": "High Protection",
+                "desc": "Cargo securities are designed to safeguard goods from theft, and protect containers from explosives or narcotics. When items are shipped to other states through borders, ports, and airports, these concerns are amplified."
+            }
+        }
+    },
+    "contactUs": {
+        "bannerTitle": "Contact Us",
+        "title": "Let’s Talk!",
+        "subTitle": "Get in touch with us using the enquiry form or contact details below.",
+        "form": {
+            "fname": "First Name",
+            "fnameLabel": "Enter your first Name",
+            "lname": "Last Name",
+            "lnameLabel": "Enter your Last Name",
+            "email": "Email",
+            "emailLabel": "Enter your email",
+            "phone": "Phone No.",
+            "phoneLabel": "Enter your phone",
+            "message": "Comment or Message",
+            "messageLabel": "Enter your Comment or Message",
+            "submit": "Submit"
+        }
+    },
+    "blog": {
+        "firstBlog": {
+            "title": "Appreciation for Logistic Services",
+            "desc": "The International Conference & Exhibition is the only event in Europe where around 300 supply chain professionals and digital transformation specialists from more than 20 countries come together and discuss the most important logistic problems…"
+        },
+        "secondBlog": {
+            "title": "Managing the Inbound Auto Supply Chain",
+            "desc": "The International Conference & Exhibition is the only event in Europe where around 300 supply chain professionals and digital transformation specialists from more than 20 countries come together and discuss the most important logistic problems…"
+        },
+        "thirdBlog": {
+            "title": "Appreciation for Logistic Services",
+            "desc": "No matter where you are or what you need, we have you covered with solutions backed by broad expertise and international reach."
+        }
+    },
+    "Whatsapp": {
+        "title": "Chat with us"
+    }
+}

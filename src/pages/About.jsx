@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from 'react-i18next';
 import { Col, Row, Button } from "reactstrap";
 import Banner from "../components/Banner";
 import logoBlack from "../assets/icon/logo-black.png";
@@ -11,14 +12,15 @@ import BlogCompanies from "../components/BlogCompanies";
 import WhatsappButton from "../components/WhatsappButton";
 
 const About = () => {
+  const { t } = useTranslation();
   return (
     <>
-      <Banner title="About Us" />
+      <Banner title={t('aboutUs.bannerTitle')} />
 
       <div className="container my-5">
         <div className="about-us-title">
-          <h1>Who We Are?</h1>
-          <h2>About SNK International</h2>
+          <h1>{t('aboutUs.title')}</h1>
+          <h2>{t('aboutUs.subTitle')}</h2>
         </div>
         <Row className="align-content-center py-2">
           <Col>
@@ -27,25 +29,15 @@ const About = () => {
             </div>
           </Col>
           <Col className="about-us-content">
-            <h3>About Us</h3>
-            <p>
-              SNK Internationalstarted in the year 2022 at Surat, Gujarat India
-              We Export fresh Vegetables, Fruits , Spices , grains etc. Under
-              the leadership of Mr. Pradeep Gupta , the company has emerged as
-              one among the leading exporters from India . Total customer
-              satisfaction is the main focus of the company . we are equipped
-              with a state of art manufacturing unit and production facility .
-              The company understands the importance of quality and timely
-              delivery of merchandise in the competitive and challenging
-              International Business scenario .
-            </p>
+            <h3>{t('aboutUs.content.title')}</h3>
+            <p>{t('aboutUs.content.desc')}</p>
           </Col>
         </Row>
       </div>
 
       <div style={{ background: "#000" }} className="py-5">
         <div className="container d-flex" style={{ flexDirection: "column" }}>
-          <Button className="about-us-button">SNK INTERNATIONAL</Button>
+          <Button className="about-us-button">{t('aboutUs.about.button')}</Button>
           <Row className="mt-5 about-quality">
             <Col md={6}>
               <div
@@ -61,14 +53,9 @@ const About = () => {
                 />
                 <div>
                   <h5 className="mb-3" style={{ fontWeight: "500" }}>
-                    Goods Packaging
+                    {t('aboutUs.about.firstBox.title')}
                   </h5>
-                  <p>
-                    Packaging ought to be easy to use. The package should be
-                    designed in such a manner that the product may be readily
-                    transported from one location to another and handled by
-                    intermediaries or customers.
-                  </p>
+                  <p>{t('aboutUs.about.firstBox.desc')}</p>
                 </div>
               </div>
             </Col>
@@ -86,15 +73,9 @@ const About = () => {
                 />
                 <div>
                   <h5 className="mb-3" style={{ fontWeight: "500" }}>
-                    Destination Possibilities
+                    {t('aboutUs.about.secondBox.title')}
                   </h5>
-                  <p>
-                    Customers' demands are based on a variety of aspects of the
-                    chosen location, including culture, architecture, food,
-                    infrastructure, geography, and so on. These qualities draw
-                    visitors to the site and enhance the entire travel
-                    experience.
-                  </p>
+                  <p>{t('aboutUs.about.secondBox.desc')}</p>
                 </div>
               </div>
             </Col>
@@ -112,13 +93,9 @@ const About = () => {
                 />
                 <div>
                   <h5 className="mb-3" style={{ fontWeight: "500" }}>
-                    Goods Tracking System
+                    {t('aboutUs.about.thirdBox.title')}
                   </h5>
-                  <p>
-                    Goods tracking is a type of feature that enables shipping
-                    businesses to keep track of all the shipments and find them
-                    along with route, delivering real-time information.
-                  </p>
+                  <p>{t('aboutUs.about.thirdBox.desc')}</p>
                 </div>
               </div>
             </Col>
@@ -136,14 +113,9 @@ const About = () => {
                 />
                 <div>
                   <h5 className="mb-3" style={{ fontWeight: "500" }}>
-                    High Protection
+                    {t('aboutUs.about.fourthBox.title')}
                   </h5>
-                  <p>
-                    Cargo securities are designed to safeguard goods from theft,
-                    and protect containers from explosives or narcotics. When
-                    items are shipped to other states through borders, ports,
-                    and airports, these concerns are amplified.
-                  </p>
+                  <p>{t('aboutUs.about.fourthBox.desc')}</p>
                 </div>
               </div>
             </Col>

@@ -1,0 +1,478 @@
+{
+    "header": {
+        "time": "(Mo-Sa) 9:00 - 20:00 Uhr",
+        "home": "Heim",
+        "product": {
+            "title": "Unser Produkt",
+            "firstProduct": "Gemüse",
+            "secondProduct": "Früchte"
+        },
+        "about": "Über uns",
+        "contact": "Kontaktiere uns",
+        "blog": "Blog",
+        "callUs": "Ruf uns jetzt an"
+    },
+    "footer": {
+        "content": {
+            "address": "Büro: -2193, Einkaufszentrum Raajmahal gegenüber der Feuerwache Dindoli 394210",
+            "mobile": "+91 93275 58693",
+            "email": "snkinternational8782@gmail.com"
+        },
+        "resources": {
+            "title": "Ressourcen",
+            "home": "Heim",
+            "about": "Über uns",
+            "content": "Kontaktiere uns",
+            "blog": "Blog"
+        },
+        "product": {
+            "title": "Produkt",
+            "nameOne": "Gemüse",
+            "nameTwo": "Früchte"
+        },
+        "subscribe": {
+            "title": "Abonnieren",
+            "emailTitle": "Deine E-Mail",
+            "getStarted": "Loslegen"
+        },
+        "copyRight": "©Alle Urheberrechte vorbehalten von SNK INTERNATION | Entwickelt von Meet Kathiriya"
+    },
+    "home": {
+        "banner": {
+            "title": "Wir bieten erstklassige Qualitätsprodukte",
+            "subTitle": "Wir sind stolz darauf, die besten Transport- und Versanddienstleistungen weltweit anzubieten. Unser kompetentes Personal, Tracking und kombiniert mit Erfahrung durch integrierte Supply-Chain-Lösungen!",
+            "button": "Über SNK",
+            "signup": {
+                "title": "Melden Sie sich für Branchenbenachrichtigungen und Einblicke von SNK INTERNATIONAL Export Import an",
+                "button": "Loslegen",
+                "search": "Ihre E-Mail-Adresse",
+                "searchButton": "Einreichen"
+            }
+        },
+        "services": {
+            "title": "DIENSTLEISTUNGEN",
+            "subTitle": "WAS WIR TUN",
+            "firstService": {
+                "title": "Export",
+                "subTitle": "Wir exportieren Produkte bester Qualität in die ganze Welt. Sie benötigen das beste Produkt rechtzeitig, Sie sind bei SNK International am richtigen Ort"
+            },
+            "secondService": {
+                "title": "Beschaffungsagent",
+                "subTitle": "Wir arbeiten als lokaler Partner unseres ausländischen Kunden zusammen, um Produkte von bester Qualität gemäß den Anforderungen und Spezifikationen des Kunden zu beschaffen"
+            }
+        },
+        "aboutUs": {
+            "title": "Über uns",
+            "content": "SNK International wurde im Jahr 2022 in Surat, Gujarat, Indien gegründet. Wir exportieren alle landwirtschaftlichen Produkte. Unter der Führung von Herrn Pradeep Gupta hat sich das Unternehmen zu einem der führenden Exporteure aus Indien entwickelt. Die absolute Kundenzufriedenheit steht im Mittelpunkt des Unternehmens. Wir verfügen über eine hochmoderne Fertigungseinheit und Produktionsanlage.",
+            "readMore": "Mehr lesen"
+        },
+        "reviews": {
+            "title": "ZUFRIEDENE KUNDEN SAGTEN",
+            "customerOne": {
+                "content": "“Ich nutze ZYL Logistics nur für meinen Versandbedarf. Meine Kunden erwarten inzwischen alle einen hervorragenden Versand und eine hervorragende Abwicklung ihrer Waren.”",
+                "title": "Pavan Prajapati",
+                "subTitle": "CEO, GIGATRON"
+            },
+            "customerTwo": {
+                "content": "“Ich wollte mir eine Minute Zeit nehmen, um Ihnen und Ihrem Logistikteam zu danken. Ich habe mich bei einigen Aufgaben am Ende des Tages wohl gefühlt, wenn ich mich auf das Team von ZYL Logistics verlassen konnte.”",
+                "title": "Olivia Dench",
+                "subTitle": "CEO, AB CONSTRACTION"
+            },
+            "customerThree": {
+                "content": "“Ich nutze ZYL Logistics nur für meinen Versandbedarf. Meine Kunden erwarten inzwischen alle einen hervorragenden Versand und eine hervorragende Abwicklung ihrer Waren.”",
+                "title": "Pavan Prajapati",
+                "subTitle": "CEO, GIGATRON"
+            },
+            "customerFour": {
+                "content": "“Ich wollte mir eine Minute Zeit nehmen, um Ihnen und Ihrem Logistikteam zu danken. Ich habe mich bei einigen Aufgaben am Ende des Tages wohl gefühlt, wenn ich mich auf das Team von ZYL Logistics verlassen konnte.”",
+                "title": "Olivia Dench",
+                "subTitle": "CEO, AB CONSTRACTION"
+            }
+        },
+        "questions": {
+            "firstQuestion": {
+                "title": "01 Transparente Preise",
+                "subTitle": "Wir sind ein vertrauenswürdiger Analysepartner der Finanzdienstleistungsbranche und entwickeln kontinuierlich Analyselösungen für große Banken. Kreditgenossenschaften, Casinos und Reiseunternehmen. Auf der ganzen Welt."
+            },
+            "secondQuestion": {
+                "title": "02 Echtzeit-Tracking",
+                "subTitle": "Wir sind ein vertrauenswürdiger Analysepartner der Finanzdienstleistungsbranche und entwickeln kontinuierlich Analyselösungen für große Banken. Kreditgenossenschaften, Casinos und Reiseunternehmen. Auf der ganzen Welt."
+            },
+            "thirdQuestion": {
+                "title": "03 Erfahrene Mitarbeiter",
+                "subTitle": "Wir sind ein vertrauenswürdiger Analysepartner der Finanzdienstleistungsbranche und entwickeln kontinuierlich Analyselösungen für große Banken. Kreditgenossenschaften, Casinos und Reiseunternehmen. Auf der ganzen Welt."
+            },
+            "title": "Transportieren Sie Ihre Produkte über alle Grenzen hinweg",
+            "contentOne": "Versicherung & Garantie",
+            "contentTwo": "Logistikkompetenz",
+            "contentThree": "Kommerzielle Expertise"
+        },
+        "blog": {
+            "title": "UNSER BLOG",
+            "subTitle": "AKTUELLES AUS UNSEREM BLOG",
+            "bannerTitle": "Blog"
+        }
+    },
+    "vegetables": {
+        "title": "Gemüse",
+        "oninons": {
+            "title": "10 gesundheitliche Vorteile von Zwiebeln",
+            "button": "Whatsapp",
+            "para1": "Wenn Sie jemals nach Rezepten Ihrer Mutter, Oma, Pinterest oder von irgendwo anders gekocht haben, ist Ihnen vielleicht ein gemeinsames Thema aufgefallen. Bei den meisten, wenn nicht allen dieser Rezepte werden Sie aufgefordert, Ihren Topf, Ihre Pfanne oder Ihren Schmortopf mit Öl zu erhitzen und dann gehackte Zwiebeln hinzuzufügen, die Sie einige Minuten lang anbraten, bis sie weich sind. Zwiebeln sind ein Grundnahrungsmittel in der Küche und kommen in vielen Gerichten vor, und das aus gutem Grund.",
+            "para2": "Wenn Sie sich Sorgen um Ihre Gesundheit machen, sollten Sie darüber nachdenken, Ihrer Ernährung mehr Zwiebeln hinzuzufügen. Aufgrund der Antioxidantien und entzündungshemmenden Eigenschaften, die Zwiebeln enthalten, ist der Verzehr von Zwiebeln gut für die Herzgesundheit. Darüber hinaus sind sie äußerst nahrhaft und köstlich! Dieser Artikel stellt Ihnen zehn gesundheitliche Vorteile von Zwiebeln vor.",
+            "para3": "1. Viele Antioxidantien enthalten Antioxidantien können helfen, Zellschäden vorzubeugen, indem sie freie Radikale bekämpfen. Freie Radikale entstehen, wenn der Körper Strahlung oder Tabakrauch ausgesetzt ist. Diese Moleküle können Diabetes, Herzerkrankungen und Krebs verursachen. Durch den Verzehr von Zwiebeln können Sie Ihrem Körper helfen, freie Radikale zu bekämpfen und Ihre allgemeine Gesundheit zu verbessern.",
+            "para4": "2. Hilfe bei der Senkung des Blutzuckerspiegels Wenn Sie an Diabetes leiden, sind Zwiebeln eine hervorragende Möglichkeit, Ihren Blutzuckerspiegel stabil zu halten. Die Flavonoide in Zwiebeln sorgen dafür, dass der Blutzuckerspiegel stabil bleibt. Wenn die Werte niedrig sind, können Symptome wie Müdigkeit, Angstzustände, Kopfschmerzen und viele andere Anzeichen auftreten.",
+            "para5": "3. Verbesserte Verdauungsgesundheit Zwiebeln enthalten einen hohen Anteil an Präbiotika und Ballaststoffen. Im Körper trägt es zur Verbesserung der Darmgesundheit bei, indem es die Verdauung unterstützt, das Immunsystem stärkt und Entzündungen lindert.",
+            "para6": "4. Voller Nährstoffe Zwiebeln gelten als nährstoffreiches Lebensmittel. Das bedeutet, dass sie wenig Kalorien und viele Nährstoffe enthalten. Sie sind eine großartige Quelle für Kalium und Mangan. Kalium hilft, die Energie und den Stoffwechsel zu steigern. Mangan unterstützt den Körper beim Aufbau von Bindegewebe, unterstützt die Knochengesundheit und verringert das Risiko der Bildung von Blutgerinnseln.",
+            "para7": "5. Entzündungshemmende Eigenschaften Zwiebeln enthalten ein Antioxidans namens Quercetin. Quercetin wirkt entzündungshemmend und bekämpft Entzündungen im Körper. Es eignet sich hervorragend zur Linderung von Schwellungen, hilft bei Arthritis und behandelt Blasenentzündungen.",
+            "para8": "6. Kann bestimmte Krebsarten in Schach halten Wenn Sie sich Sorgen über Ihr Krebsrisiko machen, möchten Sie möglicherweise mehr Zwiebeln verzehren. Forscher fanden heraus, dass ein mäßiger Verzehr von Zwiebeln das Risiko für Darm-, Kehlkopf- und Eierstockkrebs zu verringern schien.",
+            "para9": "7. Reduziert das Risiko einer Alzheimer-Krankheit. Es wurden Studien durchgeführt, um den Zusammenhang zwischen Quercetin und der Alzheimer-Krankheit herauszufinden. Diese Studien zeigten einen signifikanten Zusammenhang zwischen dem Verzehr von Lebensmitteln mit hohem Quercetingehalt, wie z. B. Zwiebeln, und einem geringeren Risiko, an Alzheimer zu erkranken.",
+            "para10": "8. Hervorragende Vitamin-C-Quelle. Wussten Sie, dass Zwiebeln eine große Menge an Vitamin C enthalten? Vitamin C ist für die ordnungsgemäße Funktion Ihres Körpers unerlässlich. Es hilft bei der Bildung von Blutgefäßen, stärkt Ihr Immunsystem und baut Knorpel auf.",
+            "para11": "9. Unterstützt die Knochengesundheit. Studien haben gezeigt, dass Zwiebeln bei manchen Menschen die Knochendichte verbessern. Daher kann der Verzehr von Zwiebeln dazu beitragen, die Knochen zu stärken und das Risiko von Knochenbrüchen bei Menschen über 50 zu verringern.",
+            "para12": "10. Antibakteriell: Die antibakteriellen Eigenschaften von Allicin in Zwiebeln helfen dem Dickdarm, schädliche Bakterien abzuwehren. Allicin ist die Verbindung, die den einzigartigen starken Geruch einer Zwiebel verströmt. Sie können sich Allicin als Ihren Kämpfer gegen Giftstoffe und Krankheiten vorstellen. Das ist etwas, worüber man Freudentränen weinen kann!",
+            "para13": "Nachdem Sie über die zehn gesundheitlichen Vorteile von Zwiebeln gelesen haben, fragen Sie sich vielleicht, wie Sie Ihrer täglichen Ernährung mehr Zwiebeln hinzufügen können. Eine einfache und schnelle Möglichkeit, mehr Zwiebeln zu verzehren, ist die Verwendung von Spice World Easy Onion! Sie müssen sich nicht mehr mit dem mühsamen Schälen und Hacken von Zwiebeln herumschlagen, während Ihnen die Tränen in die Augen steigen. Alles, was Sie tun müssen, ist, die Flasche auszudrücken, um die gehackten Zwiebeln im Handumdrehen zu erhalten. Einfacher geht es nicht!"
+        },
+        "guav": {
+            "title": "10 gesundheitliche Vorteile von Guavenkernmehl",
+            "button": "Whatsapp",
+            "para1": "1. Heilt Reizdarmsyndrom Wenn Sie Guarkernmehl einnehmen, müssen Sie über seine gesundheitlichen Vorteile Bescheid wissen. Um dieses bohnenartige Produkt zu kaufen, müssen Sie sich sofort für den erfahrenen Guarkernmehl-Hersteller entscheiden. Es gibt also viele Dinge zu beachten. Es hilft bei der Behandlung des Reizdarmsyndroms. So können Sie gute Bakterien in Ihrem System ausgleichen und sie für eine Zusatzbehandlung nutzen. Lassen Sie uns einige der gesundheitlichen Vorteile von Guarkernmehl im Detail besprechen.",
+            "para2": "2. Linderung von Verdauungsbeschwerden Wenn Sie Guarkernmehl einnehmen, lindert es Verdauungsschmerzen. Selbstverständlich haben die Inhaltsstoffe einen medizinischen Wert und erfüllen vielfältige verdauungsfördernde Wirkungen. Wenn eine kleine Menge löslicher Ballaststoffe eingenommen wird, kann eine Gruppe von Menschen mit Reizdarmsyndrom die Beschwerden überwinden. Guarkernmehl ist wichtig, um eine gute Lösung zu finden und Verstopfung zu überwinden.",
+            "para3": "3. Die guten Käfer füttern Bakterien verursachen auch bei gesunden Menschen Krankheiten. Es wird jedoch eine gute Lösung und Forschung entwickelt, die auf der Erhaltung der Gesundheit basiert. Um ein gesundes Leben in Einklang zu bringen, können Sie Guarkernmehl für das Verdauungssystem in Betracht ziehen. Guarkernmehl wird aufgrund seiner medizinischen Eigenschaften häufig bei Magen-Darm-Problemen eingesetzt. So werden Allergien und andere Symptome überwunden.",
+            "para4": "4. Senkung des Cholesterinspiegels Die Reduzierung des Cholesterinspiegels ist der wichtigste Nutzen von Guarkernmehl, den es zu erkunden gilt. Natürlich gilt es für Typ-1- und Typ-2-Diabetes. Guarkernmehl hat jedoch einige medizinische Eigenschaften bei der Senkung des Cholesterinspiegels. Aufgrund des niedrigeren Blutzucker- und Cholesterinspiegels ist Guarkernmehl eine langfristige Verwendung für ihr gesundes Leben.",
+            "para5": "5. Verdauungsgesundheit Die Gesundheit des Verdauungssystems ist für uns von entscheidender Bedeutung. Natürlich müssen wir unsere Gesundheit sicher erhalten. Die Einnahme von Guarkernmehl verbessert die Verdauungsgesundheit und kann eine neue Lösung darstellen. Es ist mit mehr Vorteilen verbunden und erhöht wahrscheinlich den Stuhlgang. Es kommt zu einer Verbesserung der Stuhlbeschaffenheit und der Darmtätigkeit. Es ist reich an Ballaststoffen und Leckereien fördern die Gesundheit des Verdauungssystems.",
+            "para6": "6. Blutzucker Der Blutzuckerspiegel ist natürlich der wichtigste Vorteil, den man an Guarkernmehl erkennen kann. Es entwickelt eine gute Lösung und ist in der Lage, den Blutzuckerspiegel zu kontrollieren. Es umfasst Maßnahmen zur Kontrolle des Blutzuckerspiegels. Durch die Verwendung natürlicher Bohnenextrakte wird der Blutzuckerspiegel schnell gesenkt. Sie müssen es sechs Wochen lang viermal täglich einnehmen und es wurde festgestellt, dass es den Blutzuckerspiegel mit LDL-Cholesterin senkt.",
+            "para7": "7. Blutcholesterin Lösliche Ballaststoffe sind immer reich an Guarkernmehl. Einem aktuellen Bericht zufolge verringert die Einnahme von Guarkernmehl die cholesterinsenkende Wirkung. Es wird jedoch eine gute Lösung entstehen, und die Ursache mit Extrakt hängt von den reduzierenden Zahlen ab. Daher sollten sie bei entsprechend verringerten Cholesterinwerten gut funktionieren. Fünfzehn Gramm Guarkernmehl enthalten Eigenschaften zur Reduzierung von Fettleibigkeit und Diabetes. Diese tägliche Nahrungsergänzung verbessert das Leben und senkt den schädlichen Cholesterinspiegel. Es regt die Durchblutung an und produziert mehr Gallensäuren, um den Cholesterinspiegel zu senken.",
+            "para8": "8. Gewichtserhaltung Die Gewichtserhaltung ist durch die Einnahme von Guarkernmehl für ein gesundes Leben unerlässlich. Es senkt jedoch den Cholesterinspiegel und hilft beim Abnehmen. Die Kontrolle des Appetits ist natürlich das Beste und trägt zu einer besseren Gesundheit bei. Daher spielen die Vorteile von Guarkernmehl eine wichtige Rolle und reduzieren den Appetit. Im Allgemeinen werden täglich 14 Gramm Ballaststoffe zusätzlich aufgenommen, was zu einer Kalorienreduzierung von 10 % führt.",
+            "para9": "9. Reduzieren Sie den Appetit und die Kalorienaufnahme. Guarkernmehl kann probiotisch sein und den Appetit und die Kalorienaufnahme reduzieren. Die Zutaten werden häufig für verschiedene Zwecke verwendet. Dadurch werden der Appetit und die Kalorienaufnahme entsprechend reduziert. Es ist hilfreich bei der Gewichtsabnahme bei Frauen. Die Wirkung von Guarkernmehl ist eine vollständige Lösung und beinhaltet eine höhere Kalorienaufnahme.",
+            "para10": "10. Gutes Nahrungsergänzungsmittel Schließlich wird Guarkernmehl als bestes Nahrungsergänzungsmittel und Zusatz zu verarbeiteten Lebensmitteln verwendet. Natürlich bringen sie weitere gesundheitliche Vorteile mit sich und können das Verdauungssystem gut ins Gleichgewicht bringen. Somit erregt es eine gute Aufmerksamkeit des Nahrungsergänzungsmittels zur Ausgewogenheit des Ernährungsplans. Daher müssen Sie Guarkernmehl verwenden, um dauerhaft von den verschiedenen gesundheitlichen Vorteilen zu profitieren."
+        },
+        "okra": {
+            "title": "10 gesundheitliche Vorteile von grünem Okra",
+            "button": "Whatsapp",
+            "para1": "1. Verhindert Anämie",
+            "para2": "2. Fördern Sie eine gesunde Schwangerschaft",
+            "para3": "3. Reich an Aminosäuren",
+            "para4": "4. Ideal zum Abnehmen",
+            "para5": "5. Reguliert den Blutzucker",
+            "para6": "6. Fördert",
+            "para7": "7. Healthy Skin",
+            "para8": "8. Verbessert das Herz",
+            "para9": "9. Gesundheit",
+            "para10": "10. Schützt vor",
+            "para11": "11. Magengeschwür",
+            "para12": "12. Assists",
+            "para13": "13. Atemwege",
+            "para14": "14. Problem",
+            "para15": "15. Vorteilhaft für alle",
+            "para16": "16. IBS-Probleme"
+        },
+        "chillies": {
+            "title": "Vorteile von grünen Chilis",
+            "button": "Whatsapp",
+            "para1": "1. Schutz vor chronischen Krankheiten.",
+            "para2": "2. Hilft gegen Diabetes.",
+            "para3": "3. Hilfe bei der Heilung von Anämie.",
+            "para4": "4. Antimikrobielle Eigenschaften.",
+            "para5": "5. Förderung einer gesunden Haut.",
+            "para6": "6. Unterstützung beim Abnehmen.",
+            "para7": "7. Erhöhung der Körpertemperatur während",
+            "para8": "8. Winter.",
+            "para9": "9. Reduzierung von Magengeschwüren.",
+            "para10": "10. Grüne Chilis",
+            "para11": "11. Wert der Nährwertkomponente",
+            "para12": "12. Kohlenhydrate 9,46 g",
+            "para13": "13. Proteine ​​2 g"
+        },
+        "potato": {
+            "title": "Vorteile von Kartoffeln",
+            "button": "Whatsapp",
+            "para1": "1. Kalorien: 164",
+            "para2": "2. Fett: 0,2 g",
+            "para3": "3. Natrium: 24 mg",
+            "para4": "4. Kohlenhydrate: 37 g",
+            "para5": "5. Ballaststoffe: 4 g",
+            "para6": "6. Zucker: 1,9 g",
+            "para7": "7. Protein: 4,6 g",
+            "para8": "8. Vitamin C: 14,4 mg",
+            "para9": "9. Vitamin B6: 0,6 mg",
+            "para10": "10. Schützt vor"
+        },
+        "garlic": {
+            "title": "Gesundheitliche Vorteile von Knoblauch",
+            "button": "Whatsapp",
+            "para1": "1. Stärkt das Immunsystem",
+            "para2": "2. Behandelt Sportlernahrung",
+            "para3": "3. Stoppt Zahnschmerzen",
+            "para4": "4. Begrenzt die Auswirkungen von Erkältung und Grippe",
+            "para5": "5. Senkt den Cholesterinspiegel",
+            "para6": "6. Behandeln Sie Insektenstiche",
+            "para7": "7. Fördern Sie die Herzgesundheit",
+            "para8": "8. Beseitigt verstopfte Nase",
+            "para9": "9. Fieberbläschen heilen",
+            "para10": "10. Tötet Parasiten",
+            "para11": "11. Senkt den Blutdruck",
+            "para12": "12. Mücken abwehren",
+            "para13": "13. Verhindern Sie Blutgerinnsel",
+            "para14": "14. Helfen Sie einer schlechten Verdauung"
+        },
+        "peas": {
+            "title": "10 GESUNDHEITLICHE VORTEILE VON ERBSEN",
+            "button": "Whatsapp",
+            "para1": "1. Verhindert Magenkrebs",
+            "para2": "2. Gute Proteinquelle",
+            "para3": "3. Reguliert den Blutzucker",
+            "para4": "4. Reich an Mikronährstoffen",
+            "para5": "5. Unterstützt die Leberfunktion",
+            "para6": "6. Immunverstärker",
+            "para7": "7. Wenig Kalorien",
+            "para8": "8. Reich an Ballaststoffen",
+            "para9": "9. Hohe Energie",
+            "para10": "10. Anti-Aging"
+        },
+        "redOkra": {
+            "title": "Ernährungsvorteile von roter Okra1",
+            "button": "Whatsapp",
+            "para1": "1. Antioxidative Vorteile",
+            "para2": "2. Entzündungshemmende Vorteile",
+            "para3": "3. Vorteile bei der Krebsbekämpfung",
+            "para4": "4. Vorteile bei der Bekämpfung von Fettleibigkeit",
+            "para5": "5. Gesundheitsvorteile der roten Okra für die Haut",
+            "para6": "6. Gesundheitsvorteile für Knochen",
+            "para7": "7. Gesundheitsvorteile der roten Okra für das Herz",
+            "para8": "8. Gesundheitsvorteile von Roter Okra für die Verdauung",
+            "para9": "9. Gesundheitsvorteile der roten Okra für die Augen",
+            "para10": "10. Gesundheitsvorteile für die Magenfrucht"
+        }
+    },
+    "fruits": {
+        "title": "Früchte",
+        "mangoes": {
+            "title": "10 gesundheitliche Vorteile von Mangos",
+            "button": "Whatsapp",
+            "para1": "1. Bekämpft Säure",
+            "para2": "2. Blutreiniger",
+            "para3": "3. Gut zur Normalisierung des Insulinspiegels",
+            "para4": "4. Fördert gutes Sehvermögen",
+            "para5": "5. Senkt den Cholesterinspiegel",
+            "para6": "6. Reinigt die Haut",
+            "para7": "7. Verhindert Krebs",
+            "para8": "8. Repariert schlechte Verdauung",
+            "para9": "9. Stärkt das Immunsystem",
+            "para10": "10. Heilmittel gegen Hitzschlag"
+        },
+        "banana": {
+            "title": "Vorteile von Bananen",
+            "button": "Whatsapp",
+            "para1": "1. Depressionen reduzieren",
+            "para2": "2. Regulieren Sie das Darmsystem",
+            "para3": "3. Reduzieren Sie den Blutdruck und das Risiko von Herzerkrankungen",
+            "para4": "4. Helfen Sie unseren Knochen, stärker zu werden",
+            "para5": "5. Helfen Sie Einzelpersonen, mit dem Rauchen aufzuhören",
+            "para6": "6. Helfen Sie, Anämie vorzubeugen",
+            "para7": "7. Versorgen Sie uns mit Energie",
+            "para8": "8. Reduzieren Sie Menstruationsbeschwerden",
+            "para9": "9. Stärken Sie unser Gehirn",
+            "para10": "10. Helfen Sie, Geschwüren vorzubeugen"
+        },
+        "lemon": {
+            "title": "VORTEILE VON ZITRONE",
+            "button": "Whatsapp",
+            "para1": "1. Kalzium",
+            "para2": "2. Kupfer",
+            "para3": "3. Eisen",
+            "para4": "4. Phosphor",
+            "para5": "5. Selen",
+            "para6": "6. Vitamin B1",
+            "para7": "7. Vitamin B2",
+            "para8": "8. Vitamin B6"
+        },
+        "oranges": {
+            "title": "10 wunderbare gesundheitliche Vorteile von Orangen",
+            "button": "Whatsapp",
+            "para1": "1. Voller Vitamine und Mineralien.",
+            "para2": "2. Schützt das Herz-Kreislauf-System.",
+            "para3": "3. Halten Sie Zähne und Knochen gesund",
+            "para4": "4. Reguliert den Blutdruck.",
+            "para5": "5. Grill-Wärmehilfe",
+            "para6": "6. Senkt den Cholesterinspiegel",
+            "para7": "7. Schützt die Niere",
+            "para8": "8. Bekämpft Infektionen",
+            "para9": "9. Schützt die Haut",
+            "para10": "10. Reinigt Blut",
+            "para11": "11. Vollfaser"
+        },
+        "carrots": {
+            "title": "Gesundheitsvorteile von Karotten",
+            "button": "Whatsapp",
+            "para1": "1. Verbesserte Sicht",
+            "para2": "2. Makuladegeneration",
+            "para3": "3. Anti-Aging",
+            "para4": "4. Gesunde, strahlende Haut",
+            "para5": "5. Ein starkes Antiseptikum",
+            "para6": "6. Herzkrankheiten vorbeugen",
+            "para7": "7. Reinigen Sie den Körper",
+            "para8": "8. Gesunde Zähne und Zahnfleisch",
+            "para9": "9. Schlaganfall verhindern",
+            "para10": "10. Krebsprävention"
+        },
+        "muskmelon": {
+            "title": "Gesundheitliche Vorteile von Warzenmelone",
+            "button": "Whatsapp",
+            "para1": "1. Stärkt Knochen und Muskeln",
+            "para2": "2. Hilft bei der Überwindung von Verstopfung",
+            "para3": "3. Verhindert Austrocknung",
+            "para4": "4. Verbessert die Sehkraft des Auges",
+            "para5": "5. Reduziert echte Krämpfe bei Männern",
+            "para6": "6. Kontrolliert den Blutdruck",
+            "para7": "7. Kontrolliert und verhindert das Krebsrisiko",
+            "para8": "8. Heilt Magengeschwüre",
+            "para9": "9. Hält Ihre Haut gesund",
+            "para10": "10. Vorteile als Haarspülung und fördernd",
+            "para11": "11. Haarwachstum",
+            "para12": "12. Werte benennen",
+            "para13": "13. Wasser 89.7 g",
+            "para14": "14. Energie 35Kcal",
+            "para15": "15. Protein 0.88 g",
+            "para16": "16. Lipid 0.28 g",
+            "para17": "17. Kohlenhydrate 8.36 g",
+            "para18": "18. Ballaststoffe 0.8 g"
+        },
+        "peanuts": {
+            "title": "10 gesundheitliche Vorteile von Erdnüssen",
+            "button": "Whatsapp",
+            "para1": "1. Stabilisieren Sie das gute/schlechte Cholesterin",
+            "para2": "2. Schützt vor Herzerkrankungen",
+            "para3": "3. Enthält viele Aminosäuren",
+            "para4": "4. Gute Proteinquelle",
+            "para5": "5. Gesund für das Gehirn",
+            "para6": "6. Bekämpft freie Radikale",
+            "para7": "7. Enthält gutes Fett",
+            "para8": "8. Reich an Vitamin E",
+            "para9": "9. Schützt die Haut",
+            "para10": "10. Reich an Ballaststoffen"
+        },
+        "corn": {
+            "title": "GESUNDHEITLICHE VORTEILE VON MAIS",
+            "button": "Whatsapp",
+            "para1": "1. Reduziert das Risiko verschiedener Herz-Kreislauf-Erkrankungen",
+            "para2": "2. Reduziert die Cholesterinaufnahme im Körper",
+            "para3": "3. Rich source of vitamins and minerals",
+            "para4": "4. Trägt zur Aufrechterhaltung einer guten Sehkraft und Haut bei",
+            "para5": "5. Kontrolliert Diabetes und Bluthochdruck",
+            "para6": "6. Reduziert das Risiko von Hämerrhoiden",
+            "para7": "7. Geringeres Risiko für Darmkrebs",
+            "para8": "8. Verbessert die Knochenstärke",
+            "para9": "9. Stärken Sie das Immunsystem"
+        },
+        "sweetPotato": {
+            "title": "10 gesundheitliche Vorteile von. Süßkartoffel",
+            "button": "Whatsapp",
+            "para1": "1. Beruhigend für den Magen",
+            "para2": "2. Entzündungshemmend",
+            "para3": "3. Voller Nährstoffe",
+            "para4": "4. Gesundes Herz",
+            "para5": "5. Stärkt die Immunität",
+            "para6": "6. Reich an Beta-Carotin",
+            "para7": "7. Gut für die Lungenfunktion",
+            "para8": "8. Entgiftung von Schwermetallen",
+            "para9": "9. Reguliert den Blutzuckerspiegel",
+            "para10": "10. Leicht verdaulich (und voller Ballaststoffe)"
+        },
+        "cucumber": {
+            "title": "Gesundheitliche Vorteile von Gurken",
+            "button": "Whatsapp",
+            "para1": "1. Feuchtigkeitsspendend – 95 % Wasser",
+            "para2": "2. Fördert die Verdauung",
+            "para3": "3. Spült Giftstoffe aus",
+            "para4": "4. Reduziert den Cholesterinspiegel",
+            "para5": "5. Reguliert die Körpertemperatur",
+            "para6": "6. Fördert das Haarwachstum",
+            "para7": "7. Regulieren Sie die Blutalkalität",
+            "para8": "8. Fördert die Gesundheit der Gelenke",
+            "para9": "9. Lindert Sonnenbrand",
+            "para10": "10. Lindert Muskelschmerzen",
+            "para11": "11. Heilt erkranktes Zahnfleisch",
+            "para12": "12. Baut Bindegewebe auf",
+            "para13": "13. Blutdruck regulieren",
+            "para14": "14. Reich an Vitamin A, B1, B6, C und D",
+            "para15": "15. Folsäure, Kalzium, Magnesium und Kalium"
+        },
+        "pomegranate": {
+            "title": "Gesundheitsvorteile des Sinduri-Granatapfels",
+            "button": "Whatsapp",
+            "para1": "1. Kalorien: 45",
+            "para2": "2. Gesamtfett: 0 Gramm",
+            "para3": "3. Kohlenhydrate: 11 Gramm",
+            "para4": "4. Protein: 2 Gramm",
+            "para5": "5. Ballaststoffe: 2 Gramm",
+            "para6": "6. Vitamin C: 14 % des RDI",
+            "para7": "7. Vitamin K: 62 % des RDI",
+            "para8": "8. Magnesium: 10 % des RDI",
+            "para9": "9. Kalium: 13 % des FEI",
+            "para10": "10. Mangan: 12 % des RDI"
+        }
+    },
+    "aboutUs": {
+        "bannerTitle": "Über uns",
+        "title": "Wer wir sind?",
+        "subTitle": "Über SNK International",
+        "content": {
+            "title": "Über uns",
+            "desc": "SNK International startete im Jahr 2022 in Surat, Gujarat, Indien. Wir exportieren frisches Gemüse, Obst, Gewürze, Getreide usw. Unter der Führung von Herrn Pradeep Gupta hat sich das Unternehmen zu einem der führenden Exporteure aus Indien entwickelt. Die absolute Kundenzufriedenheit steht im Mittelpunkt des Unternehmens. Wir verfügen über eine hochmoderne Fertigungseinheit und Produktionsanlage. Das Unternehmen ist sich der Bedeutung von Qualität und pünktlicher Lieferung von Waren im wettbewerbsintensiven und herausfordernden internationalen Geschäftsumfeld bewusst."
+        },
+        "about": {
+            "button": "SNK INTERNATIONAL",
+            "firstBox": {
+                "title": "Warenverpackung",
+                "desc": "Die Verpackung sollte einfach zu verwenden sein. Die Verpackung sollte so gestaltet sein, dass das Produkt problemlos von einem Ort zum anderen transportiert und von Zwischenhändlern oder Kunden gehandhabt werden kann."
+            },
+            "secondBox": {
+                "title": "Reisezielmöglichkeiten",
+                "desc": "Die Anforderungen der Kunden basieren auf einer Vielzahl von Aspekten des gewählten Standorts, darunter Kultur, Architektur, Essen, Infrastruktur, Geografie usw. Diese Eigenschaften ziehen Besucher auf die Website und verbessern das gesamte Reiseerlebnis."
+            },
+            "thirdBox": {
+                "title": "Warenverfolgungssystem",
+                "desc": "Bei der Warenverfolgung handelt es sich um eine Funktion, die es Speditionen ermöglicht, den Überblick über alle Sendungen zu behalten, sie zusammen mit der Route zu finden und Echtzeitinformationen zu liefern."
+            },
+            "fourthBox": {
+                "title": "Hoher Schutz",
+                "desc": "Ladungssicherungen sollen Waren vor Diebstahl schützen und Container vor Sprengstoffen oder Betäubungsmitteln schützen. Wenn Artikel über Grenzen, Häfen und Flughäfen in andere Staaten verschifft werden, verstärken sich diese Bedenken."
+            }
+        }
+    },
+    "contactUs": {
+        "bannerTitle": "Kontaktiere uns",
+        "title": "Lass uns reden!",
+        "subTitle": "Kontaktieren Sie uns über das Anfrageformular oder die unten aufgeführten Kontaktdaten.",
+        "form": {
+            "fname": "Vorname",
+            "fnameLabel": "Geben Sie Ihren Vornamen ein",
+            "lname": "Nachname",
+            "lnameLabel": "Geben Sie Ihren Nachnamen ein",
+            "email": "Email",
+            "emailLabel": "Geben sie ihre E-Mail Adresse ein",
+            "phone": "Telefon-Nr.",
+            "phoneLabel": "Geben Sie Ihr Telefon ein",
+            "message": "Kommentar oder Nachricht",
+            "messageLabel": "Geben Sie Ihren Kommentar oder Ihre Nachricht ein",
+            "submit": "Einreichen"
+        }
+    },
+    "blog": {
+        "firstBlog": {
+            "title": "Wertschätzung für Logistikdienstleistungen",
+            "desc": "Die International Conference & Exhibition ist die einzige Veranstaltung in Europa, bei der rund 300 Supply-Chain-Experten und Spezialisten für digitale Transformation aus mehr als 20 Ländern zusammenkommen und die wichtigsten logistischen Probleme diskutieren…"
+        },
+        "secondBlog": {
+            "title": "Verwaltung der Inbound-Auto-Lieferkette",
+            "desc": "Die International Conference & Exhibition ist die einzige Veranstaltung in Europa, bei der rund 300 Supply-Chain-Experten und Spezialisten für digitale Transformation aus mehr als 20 Ländern zusammenkommen und die wichtigsten logistischen Probleme diskutieren…"
+        },
+        "thirdBlog": {
+            "title": "Wertschätzung für Logistikdienstleistungen",
+            "desc": "Ganz gleich, wo Sie sich befinden oder was Sie benötigen, wir bieten Ihnen Lösungen, die auf umfassendem Fachwissen und internationaler Reichweite basieren."
+        }
+    },
+    "Whatsapp": {
+        "title": "chatte mit uns"
+    }
+}

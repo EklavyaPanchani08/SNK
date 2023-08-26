@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from 'react-i18next';
 import Banner from "../components/Banner";
 import BlogCompanies from "../components/BlogCompanies";
 import WhatsappButton from "../components/WhatsappButton";
@@ -9,9 +10,10 @@ import { Col, Row } from "reactstrap";
 import "../css/blog.css";
 
 const Blog = () => {
+  const { t } = useTranslation();
   return (
     <>
-      <Banner title="Blog" />
+      <Banner title={t('home.blog.bannerTitle')} />
 
       <div className="container">
         <Row className="m-5 blog-main align-items-center">
@@ -21,43 +23,30 @@ const Blog = () => {
             </video>
           </Col>
           <Col md={6}>
-            <h3 className="mb-4">Appreciation for Logistic Services</h3>
-            <p className="blog-des">
-              The International Conference & Exhibition is the only event in
-              Europe where around 300 supply chain professionals and digital
-              transformation specialists from more than 20 countries come
-              together and discuss the most important logistic problems…
-            </p>
+            <h3 className="mb-4">{t('blog.firstBlog.title')}</h3>
+            <p className="blog-des">{t('blog.firstBlog.desc')}</p>
           </Col>
         </Row>
         <Row className="m-5 blog-main align-items-center">
-        <Col md={6}>
+          <Col md={6}>
             <video muted className="blog-img" controls>
               <source src={blog2} type="video/mp4" />
             </video>
           </Col>
           <Col md={6}>
-            <h3 className="mb-4">Managing the Inbound Auto Supply Chain</h3>
-            <p className="blog-des">
-              The International Conference & Exhibition is the only event in
-              Europe where around 300 supply chain professionals and digital
-              transformation specialists from more than 20 countries come
-              together and discuss the most important logistic problems…
-            </p>
+            <h3 className="mb-4">{t('blog.secondBlog.title')}</h3>
+            <p className="blog-des">{t('blog.secondBlog.desc')}</p>
           </Col>
         </Row>
         <Row className="m-5 blog-main align-items-center">
-        <Col md={6}>
+          <Col md={6}>
             <video muted className="blog-img" controls>
               <source src={blog3} type="video/mp4" />
             </video>
           </Col>
           <Col md={6}>
-            <h3 className="mb-4">Appreciation for Logistic Services</h3>
-            <p className="blog-des">
-              No matter where you are or what you need, we have you covered with
-              solutions backed by broad expertise and international reach.
-            </p>
+            <h3 className="mb-4">{t('blog.thirdBlog.title')}</h3>
+            <p className="blog-des">{t('blog.thirdBlog.desc')}</p>
           </Col>
         </Row>
       </div>
