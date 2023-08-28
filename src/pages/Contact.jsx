@@ -174,7 +174,7 @@ const Contact = () => {
                   src={phone}
                   alt=""
                 />
-                <p style={{ fontSize: "16px" }}>+91 +91 9327558693</p>
+                <p style={{ fontSize: "16px" }}>+91 9327558693</p>
               </div>
               <div className="d-flex justify-content-start my-4 align-content-center">
                 <img
@@ -184,7 +184,7 @@ const Contact = () => {
                   src={phone}
                   alt=""
                 />
-                <p style={{ fontSize: "16px" }}>+91 +91 8238804711</p>
+                <p style={{ fontSize: "16px" }}>+91 8238804711</p>
               </div>
               <div className="d-flex justify-content-start my-4 align-content-center">
                 <img
@@ -195,7 +195,7 @@ const Contact = () => {
                   alt=""
                 />
                 <p style={{ fontSize: "16px" }}>
-                snkinternational8782@gmail.comF
+                snkinternational8287@gmail.com
                 </p>
               </div>
               <div className="d-flex justify-content-start my-4 align-content-center">
@@ -207,7 +207,7 @@ const Contact = () => {
                   alt=""
                 />
                 <p style={{ fontSize: "16px" }}>
-                  +TY 89 , Business Center , Vesu Road , Surat , Gujarat
+                2193, Raajmahal mall opp fire station Dindoli 394210
                 </p>
               </div>
             </div>
