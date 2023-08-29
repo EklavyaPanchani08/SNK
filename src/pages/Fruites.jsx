@@ -54,9 +54,10 @@ const Fruits = () => {
             style={{ flexDirection: "column" }}
           >
             <img src={fruit1} alt="" width="500px" className="mx-auto" />
+            <a href="https://wa.me/9327558693" target="_blank">
             <Button className="btn mt-3 product-button d-flex mx-auto">
               {t('fruits.mangoes.button')}
-            </Button>
+            </Button></a>
           </Col>
         </Row>
         <Row className="align-items-flex-start fruits-main justify-content-center my-5">
@@ -68,9 +69,10 @@ const Fruits = () => {
             style={{ flexDirection: "column" }}
           >
             <img src={fruit2} alt="" width="500px" className="mx-auto" />
+            <a href="https://wa.me/9327558693" target="_blank">
             <Button className="btn mt-3 product-button d-flex mx-auto">
               {t('fruits.banana.button')}
-            </Button>
+            </Button></a>
           </Col>
           <Col className="d-flex justify-content-start">
             <ul>
@@ -108,9 +110,10 @@ const Fruits = () => {
             style={{ flexDirection: "column" }}
           >
             <img src={fruit3} alt="" width="500px" className="mx-auto" />
+            <a href="https://wa.me/9327558693" target="_blank">
             <Button className="btn mt-3 product-button d-flex mx-auto">
               {t('fruits.lemon.button')}
-            </Button>
+            </Button></a>
           </Col>
         </Row>
         <Row className="align-items-flex-start fruits-main justify-content-center my-5">
@@ -122,9 +125,10 @@ const Fruits = () => {
             style={{ flexDirection: "column" }}
           >
             <img src={fruit4} alt="" width="500px" className="mx-auto" />
+            <a href="https://wa.me/9327558693" target="_blank">
             <Button className="btn mt-3 product-button d-flex mx-auto">
               {t('fruits.oranges.button')}
-            </Button>
+            </Button></a>
           </Col>
           <Col className="d-flex justify-content-start">
             <ul>
@@ -165,9 +169,10 @@ const Fruits = () => {
             style={{ flexDirection: "column" }}
           >
             <img src={fruit5} alt="" width="500px" className="mx-auto" />
+            <a href="https://wa.me/9327558693" target="_blank">
             <Button className="btn mt-3 product-button d-flex mx-auto">
               {t('fruits.carrots.button')}
-            </Button>
+            </Button></a>
           </Col>
         </Row> */}
         <Row className="align-items-flex-start fruits-main justify-content-center my-5">
@@ -179,9 +184,10 @@ const Fruits = () => {
             style={{ flexDirection: "column" }}
           >
             <img src={fruit6} alt="" width="500px" className="mx-auto" />
+            <a href="https://wa.me/9327558693" target="_blank">
             <Button className="btn mt-3 product-button d-flex mx-auto">
               {t('fruits.muskmelon.button')}
-            </Button>
+            </Button></a>
           </Col>
           <Col className="d-flex justify-content-start">
             <ul>
@@ -229,9 +235,10 @@ const Fruits = () => {
             style={{ flexDirection: "column" }}
           >
             <img src={fruit7} alt="" width="500px" className="mx-auto" />
+            <a href="https://wa.me/9327558693" target="_blank">
             <Button className="btn mt-3 product-button d-flex mx-auto">
               {t('fruits.peanuts.button')}
-            </Button>
+            </Button></a>
           </Col>
         </Row>
         <Row className="align-items-flex-start fruits-main justify-content-center my-5">
@@ -243,9 +250,10 @@ const Fruits = () => {
             style={{ flexDirection: "column" }}
           >
             <img src={fruit8} alt="" width="500px" className="mx-auto" />
+            <a href="https://wa.me/9327558693" target="_blank">
             <Button className="btn mt-3 product-button d-flex mx-auto">
               {t('fruits.corn.button')}
-            </Button>
+            </Button></a>
           </Col>
           <Col className="d-flex justify-content-start">
             <ul>
@@ -284,9 +292,10 @@ const Fruits = () => {
             style={{ flexDirection: "column" }}
           >
             <img src={fruit9} alt="" width="500px" className="mx-auto" />
+            <a href="https://wa.me/9327558693" target="_blank">
             <Button className="btn mt-3 product-button d-flex mx-auto">
               {t('fruits.sweetPotato.button')}
-            </Button>
+            </Button></a>
           </Col>
         </Row> */}
         <Row className="align-items-flex-start fruits-main justify-content-center my-5">
@@ -298,9 +307,10 @@ const Fruits = () => {
             style={{ flexDirection: "column" }}
           >
             <img src={fruit10} alt="" width="500px" className="mx-auto" />
+            <a href="https://wa.me/9327558693" target="_blank">
             <Button className="btn mt-3 product-button d-flex mx-auto">
               {t('fruits.cucumber.button')}
-            </Button>
+            </Button></a>
           </Col>
           <Col className="d-flex justify-content-start">
             <ul>
@@ -345,9 +355,10 @@ const Fruits = () => {
             style={{ flexDirection: "column" }}
           >
             <img src={fruit11} alt="" width="500px" className="mx-auto" />
+            <a href="https://wa.me/9327558693" target="_blank">
             <Button className="btn mt-3 product-button d-flex mx-auto">
               {t('fruits.pomegranate.button')}
-            </Button>
+            </Button></a>
           </Col>
         </Row>
       </div>

@@ -36,9 +36,11 @@ const Vegetables = () => {
             style={{ flexDirection: "column" }}
           >
             <img src={Vegetable1} alt="" width="500px" className="mx-auto" />
+            <a href="https://wa.me/9327558693" target="_blank">
             <Button className="btn mt-3 product-button d-flex mx-auto">
               {t('vegetables.oninons.button')}
             </Button>
+            </a>
           </div>
           <div
             className="d-flex justify-content-start"
@@ -70,9 +72,11 @@ const Vegetables = () => {
             style={{ flexDirection: "column" }}
           >
             <img src={Vegetable2} alt="" width="500px" className="mx-auto" />
+            <a href="https://wa.me/9327558693" target="_blank">
             <Button className="btn mt-3 product-button d-flex mx-auto">
               {t('vegetables.guav.button')}
             </Button>
+            </a>
           </div>
           <div
             className="d-flex justify-content-start"
@@ -121,9 +125,11 @@ const Vegetables = () => {
             style={{ flexDirection: "column" }}
           >
             <img src={Vegetable3} alt="" width="500px" className="mx-auto" />
+            <a href="https://wa.me/9327558693" target="_blank">
             <Button className="btn mt-3 product-button d-flex mx-auto">
               {t('vegetables.okra.button')}
             </Button>
+            </a>
           </Col>
         </Row>
         <Row className="align-items-flex-start fruits-main justify-content-center my-5">
@@ -135,9 +141,11 @@ const Vegetables = () => {
             style={{ flexDirection: "column" }}
           >
             <img src={Vegetable4} alt="" width="500px" className="mx-auto" />
+            <a href="https://wa.me/9327558693" target="_blank">
             <Button className="btn mt-3 product-button d-flex mx-auto">
               {t('vegetables.chillies.button')}
             </Button>
+            </a>
           </Col>
           <Col className="d-flex justify-content-start">
             <ul>
@@ -180,9 +188,11 @@ const Vegetables = () => {
             style={{ flexDirection: "column" }}
           >
             <img src={Vegetable5} alt="" width="500px" className="mx-auto" />
+            <a href="https://wa.me/9327558693" target="_blank">
             <Button className="btn mt-3 product-button d-flex mx-auto">
               {t('vegetables.potato.button')}
             </Button>
+            </a>
           </Col>
         </Row>
         <Row className="align-items-flex-start fruits-main justify-content-center my-5">
@@ -194,9 +204,11 @@ const Vegetables = () => {
             style={{ flexDirection: "column" }}
           >
             <img src={Vegetable6} alt="" width="500px" className="mx-auto" />
+            <a href="https://wa.me/9327558693" target="_blank">
             <Button className="btn mt-3 product-button d-flex mx-auto">
               {t('vegetables.garlic.button')}
             </Button>
+            </a>
           </Col>
           <Col className="d-flex justify-content-start">
             <ul>
@@ -240,9 +252,11 @@ const Vegetables = () => {
             style={{ flexDirection: "column" }}
           >
             <img src={Vegetable7} alt="" width="500px" className="mx-auto" />
+            <a href="https://wa.me/9327558693" target="_blank">
             <Button className="btn mt-3 product-button d-flex mx-auto">
               {t('vegetables.peas.button')}
             </Button>
+            </a>
           </Col>
         </Row>
         <Row className="align-items-flex-start fruits-main justify-content-center my-5">
@@ -254,9 +268,11 @@ const Vegetables = () => {
             style={{ flexDirection: "column" }}
           >
             <img src={Vegetable8} alt="" width="500px" className="mx-auto" />
+            <a href="https://wa.me/9327558693" target="_blank">
             <Button className="btn mt-3 product-button d-flex mx-auto">
               {t('vegetables.redOkra.button')}
             </Button>
+            </a>
           </Col>
           <Col className="d-flex justify-content-start">
             <ul>
