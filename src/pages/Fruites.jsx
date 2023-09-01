@@ -54,6 +54,7 @@ const Fruits = () => {
             style={{ flexDirection: "column" }}
           >
             <img src={fruit1} alt="" width="500px" className="mx-auto" />
+            {/* eslint-disable-next-line */}
             <a href="https://wa.me/9327558693" target="_blank">
             <Button className="btn mt-3 product-button d-flex mx-auto">
               {t('fruits.mangoes.button')}
@@ -69,6 +70,7 @@ const Fruits = () => {
             style={{ flexDirection: "column" }}
           >
             <img src={fruit2} alt="" width="500px" className="mx-auto" />
+            {/* eslint-disable-next-line */}
             <a href="https://wa.me/9327558693" target="_blank">
             <Button className="btn mt-3 product-button d-flex mx-auto">
               {t('fruits.banana.button')}
@@ -110,6 +112,7 @@ const Fruits = () => {
             style={{ flexDirection: "column" }}
           >
             <img src={fruit3} alt="" width="500px" className="mx-auto" />
+            {/* eslint-disable-next-line */}
             <a href="https://wa.me/9327558693" target="_blank">
             <Button className="btn mt-3 product-button d-flex mx-auto">
               {t('fruits.lemon.button')}
@@ -125,6 +128,7 @@ const Fruits = () => {
             style={{ flexDirection: "column" }}
           >
             <img src={fruit4} alt="" width="500px" className="mx-auto" />
+            {/* eslint-disable-next-line */}
             <a href="https://wa.me/9327558693" target="_blank">
             <Button className="btn mt-3 product-button d-flex mx-auto">
               {t('fruits.oranges.button')}
@@ -169,6 +173,7 @@ const Fruits = () => {
             style={{ flexDirection: "column" }}
           >
             <img src={fruit5} alt="" width="500px" className="mx-auto" />
+            eslint-disable-next-line
             <a href="https://wa.me/9327558693" target="_blank">
             <Button className="btn mt-3 product-button d-flex mx-auto">
               {t('fruits.carrots.button')}
@@ -184,6 +189,7 @@ const Fruits = () => {
             style={{ flexDirection: "column" }}
           >
             <img src={fruit6} alt="" width="500px" className="mx-auto" />
+            {/* eslint-disable-next-line */}
             <a href="https://wa.me/9327558693" target="_blank">
             <Button className="btn mt-3 product-button d-flex mx-auto">
               {t('fruits.muskmelon.button')}
@@ -235,6 +241,7 @@ const Fruits = () => {
             style={{ flexDirection: "column" }}
           >
             <img src={fruit7} alt="" width="500px" className="mx-auto" />
+            {/* eslint-disable-next-line */}
             <a href="https://wa.me/9327558693" target="_blank">
             <Button className="btn mt-3 product-button d-flex mx-auto">
               {t('fruits.peanuts.button')}
@@ -250,6 +257,7 @@ const Fruits = () => {
             style={{ flexDirection: "column" }}
           >
             <img src={fruit8} alt="" width="500px" className="mx-auto" />
+            {/* eslint-disable-next-line */}
             <a href="https://wa.me/9327558693" target="_blank">
             <Button className="btn mt-3 product-button d-flex mx-auto">
               {t('fruits.corn.button')}
@@ -292,6 +300,7 @@ const Fruits = () => {
             style={{ flexDirection: "column" }}
           >
             <img src={fruit9} alt="" width="500px" className="mx-auto" />
+            eslint-disable-next-line
             <a href="https://wa.me/9327558693" target="_blank">
             <Button className="btn mt-3 product-button d-flex mx-auto">
               {t('fruits.sweetPotato.button')}
@@ -307,6 +316,7 @@ const Fruits = () => {
             style={{ flexDirection: "column" }}
           >
             <img src={fruit10} alt="" width="500px" className="mx-auto" />
+            {/* eslint-disable-next-line */}
             <a href="https://wa.me/9327558693" target="_blank">
             <Button className="btn mt-3 product-button d-flex mx-auto">
               {t('fruits.cucumber.button')}
@@ -355,6 +365,7 @@ const Fruits = () => {
             style={{ flexDirection: "column" }}
           >
             <img src={fruit11} alt="" width="500px" className="mx-auto" />
+            {/* eslint-disable-next-line */}
             <a href="https://wa.me/9327558693" target="_blank">
             <Button className="btn mt-3 product-button d-flex mx-auto">
               {t('fruits.pomegranate.button')}
