@@ -36,6 +36,7 @@ const Vegetables = () => {
             style={{ flexDirection: "column" }}
           >
             <img src={Vegetable1} alt="" width="500px" className="mx-auto" />
+            {/* eslint-disable-next-line */}
             <a href="https://wa.me/9327558693" target="_blank">
             <Button className="btn mt-3 product-button d-flex mx-auto">
               {t('vegetables.oninons.button')}
@@ -72,6 +73,7 @@ const Vegetables = () => {
             style={{ flexDirection: "column" }}
           >
             <img src={Vegetable2} alt="" width="500px" className="mx-auto" />
+            {/* eslint-disable-next-line */}
             <a href="https://wa.me/9327558693" target="_blank">
             <Button className="btn mt-3 product-button d-flex mx-auto">
               {t('vegetables.guav.button')}
@@ -125,6 +127,7 @@ const Vegetables = () => {
             style={{ flexDirection: "column" }}
           >
             <img src={Vegetable3} alt="" width="500px" className="mx-auto" />
+            {/* eslint-disable-next-line */}
             <a href="https://wa.me/9327558693" target="_blank">
             <Button className="btn mt-3 product-button d-flex mx-auto">
               {t('vegetables.okra.button')}
@@ -141,6 +144,7 @@ const Vegetables = () => {
             style={{ flexDirection: "column" }}
           >
             <img src={Vegetable4} alt="" width="500px" className="mx-auto" />
+            {/* eslint-disable-next-line */}
             <a href="https://wa.me/9327558693" target="_blank">
             <Button className="btn mt-3 product-button d-flex mx-auto">
               {t('vegetables.chillies.button')}
@@ -188,6 +192,7 @@ const Vegetables = () => {
             style={{ flexDirection: "column" }}
           >
             <img src={Vegetable5} alt="" width="500px" className="mx-auto" />
+            {/* eslint-disable-next-line */}
             <a href="https://wa.me/9327558693" target="_blank">
             <Button className="btn mt-3 product-button d-flex mx-auto">
               {t('vegetables.potato.button')}
@@ -204,6 +209,7 @@ const Vegetables = () => {
             style={{ flexDirection: "column" }}
           >
             <img src={Vegetable6} alt="" width="500px" className="mx-auto" />
+            {/* eslint-disable-next-line */}
             <a href="https://wa.me/9327558693" target="_blank">
             <Button className="btn mt-3 product-button d-flex mx-auto">
               {t('vegetables.garlic.button')}
@@ -252,6 +258,7 @@ const Vegetables = () => {
             style={{ flexDirection: "column" }}
           >
             <img src={Vegetable7} alt="" width="500px" className="mx-auto" />
+            {/* eslint-disable-next-line */}
             <a href="https://wa.me/9327558693" target="_blank">
             <Button className="btn mt-3 product-button d-flex mx-auto">
               {t('vegetables.peas.button')}
@@ -268,6 +275,7 @@ const Vegetables = () => {
             style={{ flexDirection: "column" }}
           >
             <img src={Vegetable8} alt="" width="500px" className="mx-auto" />
+            {/* eslint-disable-next-line */}
             <a href="https://wa.me/9327558693" target="_blank">
             <Button className="btn mt-3 product-button d-flex mx-auto">
               {t('vegetables.redOkra.button')}
